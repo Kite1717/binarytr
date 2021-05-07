@@ -2,8 +2,10 @@ import React from "react"
 import Link from '@/utils/ActiveLink'
 import * as Icon from 'react-feather'
 import { useSelector } from 'react-redux'
+import { useTranslation } from 'next-i18next'
 
 const Navbar = () => {
+    const { t } = useTranslation('navbar')
     const cart = useSelector((state) => state.cart)
     const [menu, setMenu] = React.useState(true)
  
@@ -56,7 +58,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Home <Icon.ChevronDown />
+                                            {t('binary-opt')} <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -126,7 +128,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            About <Icon.ChevronDown />
+                                        {t('platforms')} <Icon.ChevronDown />
                                         </a>
                                     </Link> 
 
