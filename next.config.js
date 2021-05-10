@@ -1,9 +1,9 @@
 const path = require('path')
-const { i18n } = require('./next-i18next.config')
+const nextTranslate = require('next-translate')
 module.exports = {
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],
     },
     trailingSlash: true,
-    i18n,
+    ...nextTranslate()
 }

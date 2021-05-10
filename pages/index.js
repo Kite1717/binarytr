@@ -13,7 +13,6 @@ import Partner from "@/components/Common/Partner";
 import BlogPost from "@/components/Common/BlogPost";
 import Footer from "@/components/_App/Footer";
 
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 const Index = () => {
     return (
         <>
@@ -34,11 +33,5 @@ const Index = () => {
     )
 }
 
-export const getStaticProps = async ({ locale }) => ({
-
-    props: {
-      ...await serverSideTranslations(locale, ['navbar']),
-    },
-})
 
 export default Index;

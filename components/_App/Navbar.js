@@ -2,10 +2,12 @@ import React from "react"
 import Link from '@/utils/ActiveLink'
 import * as Icon from 'react-feather'
 import { useSelector } from 'react-redux'
-import { useTranslation } from 'next-i18next'
+import useTranslation from 'next-translate/useTranslation'
 
 const Navbar = () => {
     const { t } = useTranslation('navbar')
+
+    console.log(t('asd'),"wwwwww")
     const cart = useSelector((state) => state.cart)
     const [menu, setMenu] = React.useState(true)
  
@@ -35,7 +37,7 @@ const Navbar = () => {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <Link href="/it-startup">
                             <a onClick={toggleNavbar} className="navbar-brand">
-                                <img src="/images/logo.png" alt="logo" />
+                                <img  className="logo-img"  src="/images/logo.png" alt="logo" />
                             </a>
                         </Link>
 
@@ -156,7 +158,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Pages <Icon.ChevronDown />
+                                        {t('products')} <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -326,7 +328,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Shop <Icon.ChevronDown />
+                                        {t('educations')} <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -348,7 +350,7 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link href="/#">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
-                                            Blog <Icon.ChevronDown />
+                                        {t('promotions')} <Icon.ChevronDown />
                                         </a>
                                     </Link>
 
@@ -399,7 +401,7 @@ const Navbar = () => {
 
                                 <li className="nav-item">
                                     <Link href="/contact" activeClassName="active">
-                                        <a onClick={toggleNavbar} className="nav-link">Contact</a>
+                                        <a onClick={toggleNavbar} className="nav-link"> {t('contact')}</a>
                                     </Link>
                                 </li>
                             </ul>

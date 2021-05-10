@@ -542,6 +542,10 @@ Preloader CSS
 /*================================================
 Navbar CSS
 =================================================*/
+
+.logo-img {
+  width: 140px;
+}
 .startp-responsive-nav {
   display: none;
 }

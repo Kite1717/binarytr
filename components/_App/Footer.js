@@ -2,7 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import * as Icon from 'react-feather';
 
+import useTranslation from 'next-translate/useTranslation'
+
 const Footer = () => {
+    const { t } = useTranslation('footer')
 
     const currentYear = new Date().getFullYear();
 
@@ -134,7 +137,7 @@ const Footer = () => {
 
                     <div className="col-lg-12 col-md-12">
                         <div className="copyright-area">
-                            <p>Copyright &copy; {currentYear} StartP. All rights reserved by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                            <p>Copyright &copy; {currentYear} BinaryTR. {t('copyright')}</p>
                         </div>
                     </div>
                 </div>
