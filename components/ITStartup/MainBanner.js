@@ -187,7 +187,7 @@ const MainBanner = () => {
 
                               
                                     <img 
-                                        src="/images/banner-image/main-pic.png" 
+                                        src="/images/banner-image/prod-main/main-pic.png" 
                                         className="animate__animated animate__fadeInUp animate__delay-0.1" 
                                         alt="main-pic"
                                     />
