@@ -889,6 +889,13 @@ Main Banner CSS
   font-weight: 500;
   margin-bottom: 20px;
 }
+.main-banner .hero-content h1  span{
+  font-weight: 400;
+}
+
+.main-banner .hero-content  .sub-title{
+  font-weight: 600;
+}
 
 .main-banner .hero-content p {
   margin-bottom: 30px;
@@ -930,69 +937,70 @@ Main Banner CSS
 
 .main-banner .banner-image img:nth-child(2) {
   right: 145px;
-  top: -287px;
+  top: -320px;
 }
 
 .main-banner .banner-image img:nth-child(3) {
-  left: 25px;
-  top: -20px;
+  left: -100px;
+  top: 160px;
 }
 
 .main-banner .banner-image img:nth-child(4) {
-  right: 12%;
-  top: 118px;
-  z-index: 1;
+  left: -28%;
+    top: -30px;
+    z-index: -3;
+    max-width: 200px;
 }
 
 .main-banner .banner-image img:nth-child(5) {
-  left: 28%;
-  top: -120px;
-  z-index: 2;
+  left: -1%;
+  top: 25px;
+  z-index: 3;
 }
 
 .main-banner .banner-image img:nth-child(6) {
-  right: 35%;
+  left: 20%;
+  bottom: -18px;
   z-index: 1;
-  top: -150px;
 }
 
 .main-banner .banner-image img:nth-child(7) {
-  right: 20px;
-  top: -110px;
+  right: -92px;
+  top: -300px;
+  z-index: -2;
 }
 
 .main-banner .banner-image img:nth-child(8) {
-  right: 25px;
-  top: -140px;
+  right: -142px;
+  top: -300px;
 }
 
 .main-banner .banner-image img:nth-child(9) {
-  right: 30%;
+  right: -11%;
   z-index: 1;
-  top: -35px;
+  top: 234px;
 }
 
 .main-banner .banner-image img:nth-child(10) {
-  left: 37%;
-  top: -28px;
-  z-index: 1;
+  right: -22%;
+  top: 166px;
 }
 
 .main-banner .banner-image img:nth-child(11) {
-  left: 37%;
-  top: -160px;
+  right: -27%;
+  top: 70px;
   z-index: 1;
 }
 
 .main-banner .banner-image img:nth-child(12) {
-  left: 90px;
-  top: -110px;
+  right: -22%;
+  top: -30px;
 }
 
 .main-banner .banner-image img:nth-child(13) {
   left: 56%;
   top: -25px;
-  z-index: 2;
+  z-index: -4;
 }
 
 .main-banner .banner-image img:nth-child(14) {

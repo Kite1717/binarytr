@@ -6,8 +6,6 @@ import useTranslation from 'next-translate/useTranslation'
 
 const Navbar = () => {
     const { t } = useTranslation('navbar')
-
-    console.log(t('asd'),"wwwwww")
     const cart = useSelector((state) => state.cart)
     const [menu, setMenu] = React.useState(true)
  

@@ -10,18 +10,19 @@ const MainBanner = () => {
 						<div className="row h-100 justify-content-center align-items-center">
 							<div className="col-lg-5">
 								<div className="hero-content">
-									<h1>Secure IT Solutions for a more secure environment</h1>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p>
-									
+									<h1><span>En İyi Şartlar ile</span> Yatırım Yapın</h1>
+                                    <p className="sub-title">Dakikada Kazan! Bekleme Yok! Şansınızı Deneyin!</p>
+									<p>E-posta adresinizi girin ve bizden özel bir teklif alın. Şans sizden yana kazancınızı katlayın!</p>
+								
 									<Link href="/contact">
-										<a className="btn btn-primary">Get Started</a>
+										<a className="btn btn-primary">Hemen Başla</a>
 									</Link>
 								</div>
 							</div>
 
 							<div className="col-lg-6 offset-lg-1">
 								<div className="banner-image">
-                                    <img 
+                                    {/* <img 
                                         src='/images/banner-image/man.png' 
                                         className="animate__animated animate__fadeInDown animate__delay-0.1s" 
                                         alt="man" 
@@ -105,6 +106,86 @@ const MainBanner = () => {
                                         alt="headphone"
                                     />
                             
+                                    <img 
+                                        src="/images/banner-image/main-pic.png" 
+                                        className="animate__animated animate__fadeInUp animate__delay-0.1" 
+                                        alt="main-pic"
+                                    /> */}
+                                    
+
+                                    <img 
+                                        src='/images/banner-image/prod-main/man.png' 
+                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
+                                        alt="man" 
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/prod-main/opt.png" 
+                                        className="animate__animated animate__fadeInUp animate__delay-0.1s" 
+                                        alt="opt"
+                                    />
+                                
+                                    <img 
+                                        src="/images/banner-image/prod-main/left-coin.png" 
+                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
+                                        alt="left-coin"
+                                    />
+                            
+                                    <img 
+                                        src="/images/banner-image/prod-main/left-money.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="left-money"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/prod-main/laptop.png" 
+                                        className="animate__animated animate__bounceIn animate__delay-0.2s" 
+                                        alt="laptop"
+                                    />
+                        
+                                    <img 
+                                        src="/images/banner-image/prod-main/ucak.png" 
+                                        className="animate__animated animate__fadeInDown animate__delay-0.1s" 
+                                        alt="ucak"
+                                    />
+                                     <img 
+                                        src="/images/banner-image/prod-main/grafik.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="grafik"
+                                    />
+                    
+                                    <img 
+                                        src="/images/banner-image/prod-main/ok.png" 
+                                        className="animate__animated animate__zoomIn animate__delay-0.1s" 
+                                        alt="ok"
+                                    />
+                                   
+                            
+                                     <img 
+                                        src="/images/banner-image/prod-main/right-money.png" 
+                                        className="animate__animated animate__fadeInRight animate__delay-0.1s" 
+                                        alt="right-money"
+                                    />
+                                     <img 
+                                        src="/images/banner-image/prod-main/right-coins.png" 
+                                        className="animate__animated animate__fadeInLeft animate__delay-0.1s" 
+                                        alt="right-coins"
+                                    />
+ 
+
+                                    <img 
+                                        src="/images/banner-image/prod-main/right-mid-coin.png" 
+                                        className="animate__animated animate__rotateIn animate__delay-0.1s" 
+                                        alt="right-mid-coin"
+                                    />
+
+                                    <img 
+                                        src="/images/banner-image/prod-main/right-top-coin.png" 
+                                        className="animate__animated animate__rotateIn animate__delay-0.1s" 
+                                        alt="right-top-coin"
+                                    />
+
+                              
                                     <img 
                                         src="/images/banner-image/main-pic.png" 
                                         className="animate__animated animate__fadeInUp animate__delay-0.1" 
