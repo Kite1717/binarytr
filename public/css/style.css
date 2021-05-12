@@ -889,6 +889,40 @@ Main Banner CSS
   font-weight: 700;
   margin-bottom: 20px;
 }
+
+.main-banner .hero-content .apps {
+  margin-top: 2rem;
+}
+.main-banner .hero-content .apps  img{
+  cursor: pointer;
+}
+
+
+
+.main-banner .hero-content .trade-info {
+
+ margin-bottom: 32px;
+ margin-top: 12px;
+}
+.main-banner .hero-content .trade-info  .text-center{
+
+  text-align: center !important;
+ }
+ .main-banner .hero-content .trade-info  .text-center span{
+
+ font-weight: 600;
+ }
+.main-banner .hero-content .trade-info h2{
+
+  font-size: 3rem;
+  font-weight: 700;
+}
+.main-banner .hero-content .trade-info h2 span{
+
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .main-banner .hero-content h1  span{
   font-weight: 400;
 }
@@ -923,6 +957,7 @@ Main Banner CSS
 
 .main-banner .banner-image {
   position: relative;
+  margin-top: 5rem;
 }
 
 .main-banner .banner-image img {

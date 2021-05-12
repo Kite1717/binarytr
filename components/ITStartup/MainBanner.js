@@ -13,17 +13,30 @@ const MainBanner = () => {
                   <h1>
                     <span>En İyi Şartlar ile</span> Yatırım Yapın
                   </h1>
-                  <p className="sub-title">
-                    Dakikada Kazan! Bekleme Yok! Şansınızı Deneyin!
-                  </p>
-                  <p>
-                    E-posta adresinizi girin ve bizden özel bir teklif alın.
-                    Şans sizden yana kazancınızı katlayın!
-                  </p>
+                  <div className = "d-flex h-100 justify-content-between align-items-center trade-info">
 
+                  <div className="text-center">
+                      <h2 className="animate__animated animate__zoomIn animate__delay-1s">50 <span className="try">₺</span></h2>
+                      <span >Minimum Yatırım <br/>Miktarı</span>
+                  </div>
+                  <div className="text-center">
+                      <h2  className="animate__animated animate__zoomIn animate__delay-1s"> 100 <span className="try">₺</span></h2>
+                      <span>Minimum Çekim <br/>Miktarı</span>
+                  </div>
+                  <div className="text-center">
+                      <h2  className="animate__animated animate__zoomIn animate__delay-1s">1<span className="try">₺</span></h2>
+                      <span >Minimum İşlem <br/>Miktarı</span>
+                  </div>
+                  </div>
                   <Link href="/contact">
                     <a className="btn btn-primary">Hemen Başla</a>
                   </Link>
+                  <div className="d-flex h-100 justify-content-between align-items-center apps">
+                    <img  alt = "windows"src="/images/banner-image/prod-main/apps/win.png"/>
+                    <img  alt = "apple"src="/images/banner-image/prod-main/apps/apple.png"/>
+                    <img  alt = "android"src="/images/banner-image/prod-main/apps/android.png"/>
+                    <img  alt = "browser"src="/images/banner-image/prod-main/apps/browser.png"/>
+                  </div>
                 </div>
               </div>
 
