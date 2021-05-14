@@ -99,6 +99,7 @@ $paragraph-color: #6084a4;
 $purple-color: #c679e3;
 $bg-color: #f7fafd;
 $bg-color2: #f9f6f6;
+$gradient-color2: linear-gradient(to right bottom, #1fa2ff, #00c0ff, #00d9f2, #53eedd, #a6ffcb);
 $hosting-main-color: #032b8d;
 $gradient-color: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
 $gradient-color2: linear-gradient(to right bottom, #1fa2ff, #00c0ff, #00d9f2, #53eedd, #a6ffcb);
@@ -419,7 +420,7 @@ label {
         text-align: left;
         h2 {
             font-weight: 500;
-    
+
             span {
                 display: inline-block;
                 font-weight: 700;
@@ -438,12 +439,12 @@ label {
     from {
         transform: translateX(0);
     }
-    to { 
+    to {
         transform: translateX(88px);
     }
 }
 
-/*================================================ 
+/*================================================
 Preloader CSS
 =================================================*/
 .preloader {
@@ -470,11 +471,11 @@ Preloader CSS
     }
 }
 @keyframes sk-rotateplane {
-    0% { 
+    0% {
         transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    } 50% { 
+    } 50% {
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    } 100% { 
+    } 100% {
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
@@ -495,7 +496,7 @@ Navbar CSS
         background-color: transparent;
         transition: .3s;
         padding-top: 15px;
-       
+
         &.is-sticky {
             box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
             background-color: $white-color !important;
@@ -722,7 +723,7 @@ Navbar CSS
                     }
                 }
             }
-            .others-option {    
+            .others-option {
                 .cart-wrapper-btn {
                     color: $white-color;
                 }
@@ -730,7 +731,7 @@ Navbar CSS
                     &.btn-primary {
                         background: $purple-color;
                         box-shadow: 0 13px 27px 0 rgba(198, 121, 227, 0.25);
-    
+
                         &::after, &::before {
                             background: $light-green-color;
                             box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
@@ -750,7 +751,7 @@ Navbar CSS
     border: none;
 	border-radius: 0;
     padding: 0;
-    
+
     &:focus {
         outline: 0 !important;
         box-shadow: none;
@@ -782,7 +783,7 @@ Navbar CSS
     }
     &.collapsed {
         .top-bar {
-            transform: rotate(0);      
+            transform: rotate(0);
             left: 0;
         }
         .middle-bar {
@@ -958,13 +959,13 @@ Main Banner CSS
             padding: 0;
             margin: 0;
             list-style-type: none;
-    
+
             li {
                 margin-bottom: 12px;
                 color: $white-color;
                 position: relative;
                 padding-left: 30px;
-    
+
                 &::before {
                     position: absolute;
                     left: 0;
@@ -997,7 +998,7 @@ Main Banner CSS
 
         img {
             position: absolute;
-            
+
             &:nth-child(1) {
                 top: -175px;
                 left: 0;
@@ -1117,25 +1118,25 @@ Main Banner CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 .rotateme {
     animation-name: rotateme;
@@ -1428,7 +1429,7 @@ Why Choose US CSS
     .icon {
         color: $light-green-color;
         transition: $transition;
-        
+
         i {
             &::before {
                 font-size: 45px;
@@ -1942,13 +1943,13 @@ Services Details CSS
             padding: 0;
             margin: 25px 0 0;
             border: none;
-        
+
             .accordion__item {
                 box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
                 background: $white-color;
                 margin-bottom: 10px;
                 border: none;
-        
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -1960,7 +1961,7 @@ Services Details CSS
                 color: $black-color;
                 position: relative;
                 background-color: #fff;
-                
+
                 font: {
                     size: 15px;
                     weight: 500;
@@ -1974,7 +1975,7 @@ Services Details CSS
                     height: 100%;
                     background: $light-green-color;
                     color: $white-color;
-        
+
                     &::before {
                         position: absolute;
                         left: 0;
@@ -1986,7 +1987,7 @@ Services Details CSS
                 }
                 &.active {
                     border-bottom-color: #e1e1e1;
-        
+
                     i {
                         &::before {
                             content: "\f10f";
@@ -2198,7 +2199,7 @@ Features Details CSS
                 background: $white-color;
                 margin-bottom: 10px;
                 border: none;
- 
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -2210,7 +2211,7 @@ Features Details CSS
                 color: $black-color;
                 position: relative;
                 background-color: #fff;
-                
+
                 font: {
                     size: 15px;
                     weight: 500;
@@ -2389,7 +2390,7 @@ Works CSS
 .single-works {
     position: relative;
     margin-bottom: 30px;
-      
+
     &::before {
         content: '';
         position: absolute;
@@ -2436,7 +2437,7 @@ Works CSS
         h3 {
             font-size: 18px;
             margin-bottom: 15px;
-            
+
             a {
                 color: $white-color;
                 &:hover {
@@ -2805,7 +2806,7 @@ Pricing CSS
 .tab {
     .tabs_item {
         display: none;
-        
+
         &:first-child {
             display: block;
         }
@@ -3120,7 +3121,7 @@ Feedback CSS
             p {
                 font-size: 15px;
             }
-            
+
             &::before {
                 content: '';
                 position: absolute;
@@ -4040,7 +4041,7 @@ Blog CSS
     }
     &:hover {
         box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-        
+
         .blog-post-content {
             background: $white-color;
         }
@@ -4054,9 +4055,9 @@ Blog CSS
     .entry-thumbnail {
         a {
             display: block;
-            
+
             img {
-                border-radius: 5px 5px 0 0;        
+                border-radius: 5px 5px 0 0;
             }
         }
     }
@@ -4197,7 +4198,7 @@ Blog CSS
                     transition: .4s;
                     border-radius: 50%;
                 }
-    
+
                 &:hover, &.active {
                     span {
                         background: $gradient-color;
@@ -4213,7 +4214,7 @@ Blog CSS
     .post-image {
         border-radius: 5px;
         overflow: hidden;
-        
+
         a {
             display: block;
             border-radius: 5px;
@@ -4500,14 +4501,14 @@ Shop CSS
         }
     }
 }
-#productsModalCenter {    
+#productsModalCenter {
     .modal-dialog {
         max-width: 900px;
     }
     .modal-content {
         border: none;
         border-radius: 0;
-    
+
         button.close {
             position: absolute;
             right: 2%;
@@ -4522,14 +4523,14 @@ Shop CSS
             border-radius: 50%;
             outline: 0;
             transition: $transition;
-    
+
             span {
                 transition: $transition;
             }
             &:hover, &:focus {
                 background-color: $light-green-color;
                 color: $white-color;
-    
+
                 span {
                     color: $white-color;
                 }
@@ -4537,7 +4538,7 @@ Shop CSS
         }
         .products-image {
             overflow: hidden;
-            
+
             img {
                 width: 100%;
             }
@@ -4552,7 +4553,7 @@ Shop CSS
             }
             .price {
                 margin-bottom: 15px;
-    
+
                 span {
                     text-decoration: line-through;
                     color: $paragraph-color;
@@ -4568,8 +4569,8 @@ Shop CSS
                         min-width: 110px;
                         text-align: center;
                         display: inline-block;
-                        position: relative;    
-            
+                        position: relative;
+
                         span {
                             position: absolute;
                             top: 0;
@@ -4581,7 +4582,7 @@ Shop CSS
                             line-height: 47px;
                             transition: $transition;
                             padding: 0;
-            
+
                             &.minus-btn {
                                 left: 0;
                             }
@@ -4625,7 +4626,7 @@ Shop CSS
                     cursor: pointer;
                     outline: 0;
                     transition: $transition;
-    
+
                     &:hover, &:focus {
                         background-color: $purple-color;
                         color: $white-color;
@@ -4634,7 +4635,7 @@ Shop CSS
             }
             .product-meta {
                 margin-top: 15px;
-    
+
                 span {
                     display: inline-block;
                     margin-right: 8px;
@@ -4726,7 +4727,7 @@ Shop Details CSS
     }
     .availability {
         margin-bottom: 20px;
-        
+
         span {
             color: $light-green-color;
         }
@@ -4743,8 +4744,8 @@ Shop Details CSS
                 min-width: 110px;
                 text-align: center;
                 display: inline-block;
-                position: relative;    
-    
+                position: relative;
+
                 span {
                     position: absolute;
                     top: 0;
@@ -4756,7 +4757,7 @@ Shop Details CSS
                     line-height: 47px;
                     transition: $transition;
                     padding: 0;
-    
+
                     &.minus-btn {
                         left: 0;
                     }
@@ -4877,7 +4878,7 @@ Shop Details CSS
                     border: 1px solid $light-green-color;
                     border-radius: 50%;
                     color: $light-green-color;
-                    
+
                     svg {
                         width: 15px;
                     }
@@ -5110,8 +5111,8 @@ Cart CSS
                             min-width: 110px;
                             text-align: center;
                             display: inline-block;
-                            position: relative;    
-                
+                            position: relative;
+
                             span {
                                 position: absolute;
                                 top: 0;
@@ -5122,7 +5123,7 @@ Cart CSS
                                 height: 100%;
                                 line-height: 47px;
                                 transition: $transition;
-                
+
                                 &.minus-btn {
                                     left: 0;
                                 }
@@ -5165,7 +5166,7 @@ Cart CSS
 
     .btn-light {
         background-color: #eaedff;
-        
+
         &:hover, &:focus {
             color: $white-color;
 
@@ -5196,13 +5197,13 @@ Cart CSS
         padding: 0;
         margin: 0 0 25px;
         list-style-type: none;
-        
+
         li {
             border: 1px solid #eaedff;
             padding: 10px 15px;
             color: $black-color;
             overflow: hidden;
-            
+
             &:first-child {
                 border: {
                     bottom: none;
@@ -5322,7 +5323,7 @@ Checkout CSS
         table {
             margin-bottom: 0;
             text-align: left;
-    
+
             thead {
                 tr {
                     th {
@@ -5343,12 +5344,12 @@ Checkout CSS
                         color: $paragraph-color;
                         border-color: #eaedff;
                         font-size: 14px;
-    
+
                         &.product-name {
                             a {
                                 color: $paragraph-color;
                                 display: inline-block;
-    
+
                                 &:hover {
                                     color: $light-green-color;
                                 }
@@ -5484,13 +5485,13 @@ FAQ CSS
         padding: 0;
         margin: 0;
         border: none;
-    
+
         .accordion__item {
             box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
             background: $white-color;
             margin-bottom: 15px;
             border: none;
-    
+
             &:last-child {
                 margin-bottom: 0;
             }
@@ -5502,7 +5503,7 @@ FAQ CSS
             color: $black-color;
             position: relative;
             background-color: #fff;
-            
+
             font: {
                 size: 15px;
                 weight: 500;
@@ -5516,7 +5517,7 @@ FAQ CSS
                 height: 100%;
                 background: $light-green-color;
                 color: $white-color;
-    
+
                 &::before {
                     position: absolute;
                     left: 0;
@@ -5528,7 +5529,7 @@ FAQ CSS
             }
             &.active {
                 border-bottom-color: #e1e1e1;
-    
+
                 i {
                     &::before {
                         content: "\f10f";
@@ -5611,12 +5612,12 @@ Blog Details CSS
 
         .entry-meta {
             margin-bottom: 10px;
-    
+
             ul {
                 padding-left: 0;
                 margin-bottom: 0;
                 list-style-type: none;
-    
+
                 li {
                     position: relative;
                     display: inline-block;
@@ -5626,7 +5627,7 @@ Blog Details CSS
                     a {
                         display: inline-block;
                         color: $paragraph-color;
-    
+
                         &:hover {
                             color: $light-green-color;
                         }
@@ -6323,7 +6324,7 @@ Sidebar Widget CSS
     .widget_startp_posts_thumb {
         position: relative;
         overflow: hidden;
-        
+
         .item {
             overflow: hidden;
             margin-bottom: 15px;
@@ -6713,7 +6714,7 @@ Contact CSS
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     background: $white-color;
     padding: 30px;
-    
+
     .icon {
         display: inline-block;
         width: 65px;
@@ -7009,7 +7010,7 @@ CTA CSS
 
     .hosting-price {
         display: inline-block;
-    
+
         span {
             color: #f6fe6a;
             display: block;
@@ -7570,7 +7571,7 @@ Repair Why Choose Us CSS
         color: #4457c3;
         opacity: .06;
         z-index: -1;
-        
+
         i {
             &::before {
                 font-size: 200px;
@@ -7816,7 +7817,7 @@ Iot Services CSS
     text-align: center;
     background-color: $white-color;
     border: 1px dashed #cdf1d8;
-    
+
     &::after {
         position: absolute;
         transition: $transition;
@@ -8799,7 +8800,7 @@ ML Projects CSS
     overflow: hidden;
     z-index: 1;
     padding-bottom: 50px;
-    
+
     .section-title {
         text-align: left;
         max-width: 530px;
@@ -8912,7 +8913,7 @@ ML Projects CSS
                     border: 1px solid #8d95a7;
                     border-radius: 50%;
                     position: relative;
-    
+
                     &::before {
                         position: absolute;
                         left: 0;
@@ -8931,7 +8932,7 @@ ML Projects CSS
                     span {
                         border-color: $light-green-color;
                         background-color: transparent;
-    
+
                         &::before {
                             transform: scale(1);
                         }
@@ -9269,7 +9270,7 @@ Testimonials CSS
             top: 50%;
             transform: translateY(-50%);
         }
-        .rating {    
+        .rating {
             svg {
                 color: #ff612f;
                 width: 16px;
@@ -9824,7 +9825,7 @@ Footer CSS
 
                 a {
                     color: $paragraph-color;
-                    
+
                     &:hover {
                         color: $light-green-color;
                         padding-left: 7px;
@@ -9879,7 +9880,7 @@ Footer CSS
                     border: 1px solid $light-green-color;
                     border-radius: 50%;
                     color: $light-green-color;
-                    
+
                     svg {
                         width: 15px;
                     }
@@ -9956,7 +9957,7 @@ Go Top CSS
 	line-height: 46px;
     transition: $transition;
     z-index: 999;
-    
+
     &:hover {
         color: $white-color;
         background: $light-green-color;
@@ -9991,7 +9992,7 @@ Go Top CSS
     }
     form {
         .form-label {
-            text-align: left; 
+            text-align: left;
             display: block;
         }
         .btn {

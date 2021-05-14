@@ -4,13 +4,13 @@ import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import Link from 'next/link';
 import * as Icon from 'react-feather';
- 
+
 const Login = () => {
     return (
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Login" />
+            <PageBanner pageTitle="Giriş Yap" />
 
             <div className="ptb-80">
                 <div className="container">
@@ -19,7 +19,7 @@ const Login = () => {
                             <Link href="/it-startup">
                                 <a><img src="/images/logo.png" /></a>
                             </Link>
-                            <p>Don't have an account yet? <Link href="/sign-up">Sign Up</Link></p>
+                            <p>Henüz hesabın yok mu? <Link href="/sign-up">Kayıt Ol</Link></p>
                         </div>
 
                         <form>
@@ -29,19 +29,19 @@ const Login = () => {
                             </div>
 
                             <div className="mb-3">
-                                <label className="form-label">Password</label>
+                                <label className="form-label">Şifre</label>
                                 <input type="password" className="form-control" id="exampleInputPassword1" />
                             </div>
 
                             <div className="mb-3">
-                                <p><Link href="/forgot-password"><a>Forgot Password</a></Link></p>
+                                <p><Link href="/forgot-password"><a>Şifremi Unuttum</a></Link></p>
                             </div>
 
-                            <button type="submit" className="btn btn-primary">Login</button>
+                            <button type="submit" className="btn btn-primary">Giriş Yap</button>
                         </form>
 
                         <div className="foot">
-                            <p>or connect with</p>
+                            <p>ya da iletişime geç</p>
                             <ul>
                                 <li>
                                     <a href="#" target="_blank">
@@ -63,7 +63,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

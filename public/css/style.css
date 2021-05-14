@@ -1954,8 +1954,8 @@ Services CSS
 }
 
 .services-left-image img:nth-child(1) {
-  left: -45%;
-  top: -50px;
+  left: 120px;
+  top: -52px;
 }
 
 .services-left-image img:nth-child(2) {
@@ -1967,9 +1967,9 @@ Services CSS
 }
 
 .services-left-image img:nth-child(3) {
-  left: 81%;
+  left: 61%;
   z-index: 12;
-  top: -55px;
+  top: -52px;
 }
 
 .services-left-image img:nth-child(4) {
@@ -4343,7 +4343,7 @@ Blog CSS
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  background: #f7fafd;
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -4352,6 +4352,9 @@ Blog CSS
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 0;
+}
+.single-blog-post .blog-post-content p {
+  color: #ffffff;
 }
 
 .single-blog-post .blog-post-content span {
@@ -4392,7 +4395,7 @@ Blog CSS
 }
 
 .single-blog-post:hover .blog-post-content {
-  background: #ffffff;
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
 }
 
 .single-blog-post-box {
