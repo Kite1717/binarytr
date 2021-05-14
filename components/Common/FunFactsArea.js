@@ -6,47 +6,47 @@ const FunFactsArea = () => {
         <div className="funfacts-area ptb-80">
             <div className="container">
                 <div className="section-title">
-                    <h2>We always try to understand users expectation</h2>
+                    <h2>DAKİKADA KAZAN! BEKLEME YOK! ŞANSINIZI DENEYİN!</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Bizden özel bir teklif alın. Şans sizden yana kazancınızı katlayın!</p>
                 </div>
 
                 <div className="row">
                     <div className="col-lg-3 col-md-3 col-6">
                         <div className="funfact">
-                            <h3>180K</h3>
-                            <p>Downloaded</p>
+                            <h3>+50.000$</h3>
+                            <p>Anında Bonus</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 col-6">
                         <div className="funfact">
-                            <h3>20K</h3>
-                            <p>Feedback</p>
+                            <h3>+20.000$</h3>
+                            <p>Haftalık Kullanım Bonusu</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 col-6">
                         <div className="funfact">
-                            <h3>500+</h3>
-                            <p>Workers</p>
+                            <h3>+12.000$</h3>
+                            <p>Aylık Kullanım Bonusu</p>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-3 col-6">
                         <div className="funfact">
-                            <h3>70+</h3>
-                            <p>Contributors</p>
+                            <h3>700+</h3>
+                            <p>Platin Üyelik</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact-cta-box">
-                    <h3>Have any question about us?</h3>
-                    <p>Don't hesitate to contact us</p>
+                    <h3>Tek tıkla yatırım yap</h3>
+                    <img src="/images/logo.png" alt="logo" />
 
                     <Link href="/contact">
-                        <a className="btn btn-primary">Contact Us</a>
+                        <a className="btn btn-primary">Şimdi Göz Atın</a>
                     </Link>
                 </div>
 

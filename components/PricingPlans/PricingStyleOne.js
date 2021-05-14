@@ -6,38 +6,39 @@ const PricingStyleOne = () => {
         <div className="pricing-area pt-80 pb-50 bg-f9f6f6">
             <div className="container">
                 <div className="section-title">
-                    <h2>Pricing Plans</h2>
+                    <h2>Ayrıcalıklar</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Bu kısımdan üyelik seçeneklerine göz atabilirsiniz.</p>
                 </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h3>Basic Plan</h3>
+                                <h3>Altın Üye</h3>
                             </div>
                             
                             <div className="price">
-                                <span><sup>$</sup>15.00 <span>/Mon</span></span>
+                                <span>Bedeva</span>
                             </div>
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">5 GB Bandwidth</li>
-                                    <li className="active">Highest Speed</li>
-                                    <li className="active">1 GB Storage</li>
-                                    <li className="active">Unlimited Website</li>
-                                    <li className="active">Unlimited Users</li>
-                                    <li className="active">24x7 Great Support</li>
-                                    <li>Data Security and Backups</li>
-                                    <li>Monthly Reports and Analytics</li>
+                                    <li className="active">Özellik1</li>
+                                    <li className="active">Özellik2</li>
+                                    <li className="active">Özellik3</li>
+                                    <li className="active">Özellik4</li>
+                              
+                                    <li>Özellik5</li>
+                                    <li >Özellik6</li>
+                                    <li >Özellik7</li>
+                                    <li >Özellik8</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
                                 <Link href="#">
-                                    <a className="btn btn-primary">Select Plan</a>
+                                    <a className="btn btn-primary">Planı Seç</a>
                                 </Link>
                             </div>
                         </div>
@@ -46,7 +47,7 @@ const PricingStyleOne = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table active-plan">
                             <div className="pricing-header">
-                                <h3>Advanced Plan</h3>
+                                <h3>Platin Üye</h3>
                             </div>
                             
                             <div className="price">
@@ -55,20 +56,21 @@ const PricingStyleOne = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">10 GB Bandwidth</li>
-                                    <li className="active">Highest Speed</li>
-                                    <li className="active">3 GB Storage</li>
-                                    <li className="active">Unlimited Website</li>
-                                    <li className="active">Unlimited Users</li>
-                                    <li className="active">24x7 Great Support</li>
-                                    <li className="active">Data Security and Backups</li>
-                                    <li>Monthly Reports and Analytics</li>
+                                     <li className="active">Özellik1</li>
+                                    <li className="active">Özellik2</li>
+                                    <li className="active">Özellik3</li>
+                                    <li className="active">Özellik4</li>
+                              
+                                    <li className="active">Özellik5</li>
+                                    <li className="active" >Özellik6</li>
+                                    <li >Özellik7</li>
+                                    <li >Özellik8</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
                                 <Link href="#">
-                                    <a className="btn btn-primary">Select Plan</a>
+                                    <a className="btn btn-primary">Planı Seç</a>
                                 </Link>
                             </div>
                         </div>
@@ -77,7 +79,7 @@ const PricingStyleOne = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="pricing-table">
                             <div className="pricing-header">
-                                <h3>Expert Plan</h3>
+                                <h3>Elmas Üye</h3>
                             </div>
                             
                             <div className="price">
@@ -86,20 +88,21 @@ const PricingStyleOne = () => {
                             
                             <div className="pricing-features">
                                 <ul>
-                                    <li className="active">15 GB Bandwidth</li>
-                                    <li className="active">Highest Speed</li>
-                                    <li className="active">5 GB Storage</li>
-                                    <li className="active">Unlimited Website</li>
-                                    <li className="active">Unlimited Users</li>
-                                    <li className="active">24x7 Great Support</li>
-                                    <li className="active">Data Security and Backups</li>
-                                    <li className="active">Monthly Reports and Analytics</li>
+                                <li className="active">Özellik1</li>
+                                    <li className="active">Özellik2</li>
+                                    <li className="active">Özellik3</li>
+                                    <li className="active">Özellik4</li>
+                              
+                                    <li className="active">Özellik5</li>
+                                    <li  className="active">Özellik6</li>
+                                    <li  className="active">Özellik7</li>
+                                    <li  className="active">Özellik8</li>
                                 </ul>
                             </div>
                             
                             <div className="pricing-footer">
                                 <Link href="#">
-                                    <a className="btn btn-primary">Select Plan</a>
+                                    <a className="btn btn-primary">Planı Seç</a>
                                 </Link>
                             </div>
                         </div>

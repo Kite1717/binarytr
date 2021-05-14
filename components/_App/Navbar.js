@@ -324,8 +324,8 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link href="/#" activeClassName="active">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
+                                    <Link href="/services-1" activeClassName="active">
+                                        <a   className="nav-link">
                                         {t('educations')} <Icon.ChevronDown />
                                         </a>
                                     </Link>

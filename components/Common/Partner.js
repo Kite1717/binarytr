@@ -6,24 +6,24 @@ const Partner = () => {
         <>
             <div className="ready-to-talk">
                 <div className="container">
-                    <h3>Ready to talk?</h3>
-                    <p>Our team is here to answer your question about StartP</p>
+                    <h3>Ödeme Yöntemlerimiz</h3>
+                     {/*<p>Our team is here to answer your question about StartP</p>*/}
                     
                     <Link href="/contact">
-                        <a className="btn btn-primary">Contact Us</a>
+                        <a className="btn btn-primary">Hemen Başla</a>
                     </Link>
 
-                    <span>
+                    {/*<span>
                         <Link href="#">
                             <a>Or, get started now with a free trial</a>
                         </Link>
-                    </span>
+                    </span> */}
                 </div>
             </div>
 
             <div className="partner-area partner-section">
                 <div className="container">
-                    <h5>More that 1.5 million businesses and organizations use StartP</h5>
+                    <h5>14 Farklı Ödeme aracı ile kolaylıkla yatırım yapıp çekim işlemi yapabilirsiniz.</h5>
 
                     <div className="partner-inner">
                         <div className="row justify-content-center">

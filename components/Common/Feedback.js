@@ -190,38 +190,51 @@ const DEFAULT_PROPS = [
         name: 'Semih Arslan', 
         profession: '04.10.2020',
         image: '/images/client-image/client5.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: ' Herşey o kadar ayrıcalıklı düşünülmüş ki hangi işlem ne şekilde yapılıyor hepsinin videosu var gerçekten çok iyi'
     },
     {
-        name: 'Jason Momoa', 
-        profession: 'American Actor',
-        image: '/images/client-image/client5.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Gennady Korotkevich', 
-        profession: 'Sport Programmer',
-        image: '/images/client-image/client3.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Petr Mitrichev', 
-        profession: 'Russian Programmer',
-        image: '/images/client-image/client3.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Reid W. Barton', 
-        profession: 'Mathematics',
-        image: '/images/client-image/client2.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    },
-    {
-        name: 'Lisa Sauermann', 
-        profession: 'Mathematician',
+        name: 'Nazlı Karadeniz', 
+        profession: '08.03.2021',
         image: '/images/client-image/client1.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    }
+        content: 'Bu bonuslarla kayıp imkansız gibi'
+    },
+    {
+        name: 'Murat Karalar', 
+        profession: '19.11.2020',
+        image: '/images/client-image/client2.jpg', 
+        content: '2019 dan beri bu sitede vakit geçiriyorum herhangi bir sorun yaşamadım tüm arkadaşlarıma önerdim hem çekimi hemde işlemleri çok hızlı teşekkür ederim'
+    },
+    {
+        name: 'Sema Solmaz', 
+        profession: '11.12.2020',
+        image: '/images/client-image/client3.jpg', 
+        content: 'Başka sitelerde boşuna paramı bitirmişim daha kaybettiğim olmadı teşekkür ederim binary trade'
+    },
+    {
+        name: 'Metin Yıldız', 
+        profession: '14.04.2021',
+        image: '/images/client-image/client4.jpg', 
+        content: ' Herşey çok güzel 3 aydır çok işlem yapıyorum ve çok memnunum'
+    },
+    {
+        name: 'Ayşe Koç', 
+        profession: '04.01.2021',
+        image: '/images/client-image/client1.jpg', 
+        content: 'Yatırım ve çekim; hızlı ve güvenilir bu şirketle çalışmakdan memnunum'
+    },
+    {
+        name: 'Ahmet Ziyagillerden', 
+        profession: '20.01.2021',
+        image: '/images/client-image/client4.jpg', 
+        content: 'Dakikalar içinde kazanç dakikalar içinde çekim Piyasalardan kazancın yerini buldum sanırım'
+    },
+    {
+        name: 'Arda Keser', 
+        profession: '17.03.2021',
+        image: '/images/client-image/client4.jpg', 
+        content: ' Bildiğin rulet oynamak gibi araştırma yapmaya gerek yoktur. sonu para kazanmak'
+    },
+
 ];
 
 export default Feedback;
