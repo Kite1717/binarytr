@@ -484,7 +484,7 @@ label {
   }
 }
 
-/*================================================ 
+/*================================================
 Preloader CSS
 =================================================*/
 .preloader {
@@ -1008,7 +1008,7 @@ Main Banner CSS
 }
 
 .main-banner .banner-image img:nth-child(8) {
- 
+
 }
 
 .main-banner .banner-image img:nth-child(9) {
@@ -1028,7 +1028,7 @@ Main Banner CSS
 }
 
 .main-banner .banner-image img:nth-child(13) {
-  
+
 }
 
 .main-banner .banner-image img:nth-child(14) {
@@ -1718,7 +1718,7 @@ Services CSS
 .services-content .video-container {
   position: relative;
   max-height: 800px;
- 
+
 }
 
 .services-content .video-container::before {
@@ -1778,12 +1778,12 @@ Services CSS
 }
 
 .services-content .box a {
- 
+
   color: #6084a4 !important;
 
 }
 .services-content .box:hover a {
- 
+
   cursor: pointer !important;
   color: #fff !important;
 
@@ -1954,20 +1954,20 @@ Services CSS
 }
 
 .services-left-image img:nth-child(1) {
-  left: 15%;
-  top: -98px;
+  left: -45%;
+  top: -50px;
 }
 
 .services-left-image img:nth-child(2) {
   left: 0;
-  top: -200px;
+  top: -52px;
   right: 0;
   text-align: center;
   margin: 0 auto;
 }
 
 .services-left-image img:nth-child(3) {
-  left: 36%;
+  left: 81%;
   z-index: 12;
   top: -55px;
 }
@@ -10440,6 +10440,9 @@ Footer CSS
 
 .single-footer-widget .logo {
   margin-bottom: 20px;
+}
+.single-footer-widget .des {
+  font-size: 10px !important;
 }
 
 .single-footer-widget .logo a {

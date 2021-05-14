@@ -42,52 +42,19 @@ const ServicesArea = () => {
           <div className="row h-100 justify-content-center align-items-center">
             <div className="col-lg-6 col-md-12 services-left-image">
               <img
-                src="/images/services-left-image/big-monitor.png"
+                src="/images/services-left-image/sol_ekran.png"
                 className="animate__animated animate__fadeInDown animate__delay-0.2s"
                 alt="big-monitor"
               />
-
               <img
-                src="/images/services-left-image/creative.png"
-                className="animate__animated animate__fadeInUp animate__delay-0.2s"
-                alt="creative"
-              />
-
-              <img
-                src="/images/services-left-image/developer.png"
+                src="/images/services-left-image/orta_ekran.png"
                 className="animate__animated animate__fadeInLeft animate__delay-0.2s"
                 alt="developer"
               />
-
               <img
-                src="/images/services-left-image/flower-top.png"
-                className="animate__animated animate__fadeInLeft animate__delay-0.2s"
-                data-wow-delay="0.6s"
-                alt="flower-top"
-              />
-
-              <img
-                src="/images/services-left-image/small-monitor.png"
-                className="animate__animated animate__bounceIn animate__delay-0.2s"
-                alt="small-monitor"
-              />
-
-              <img
-                src="/images/services-left-image/small-top.png"
-                className="animate__animated animate__fadeInDown animate__delay-0.2s"
-                alt="small-top"
-              />
-
-              <img
-                src="/images/services-left-image/table.png"
-                className="animate__animated animate__zoomIn animate__delay-0.2s"
-                alt="table"
-              />
-
-              <img
-                src="/images/services-left-image/target.png"
-                className="animate__animated animate__fadeInUp animate__delay-0.2s"
-                alt="target"
+                  src="/images/services-left-image/sag_ekran.png"
+                  className="animate__animated animate__fadeInLeft animate__delay-0.2s"
+                  alt="developer"
               />
 
               <img
@@ -97,7 +64,7 @@ const ServicesArea = () => {
               />
 
               <img
-                src="/images/services-left-image/service-left-main-pic.png"
+                src="/images/services-left-image/bg_ekran.png"
                 className="animate__animated animate__fadeInUp animate__delay-0.2s"
                 alt="main-pic"
               />
