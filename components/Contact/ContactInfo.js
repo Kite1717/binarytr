@@ -11,9 +11,8 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <Icon.Mail />
                             </div>
-                            <h3>Mail Here</h3>
-                            <p><a href="mailto:admin@startp.com">admin@startp.com</a></p>
-                            <p><a href="mailto:info@startp.com">info@startp.com</a></p>
+                            <h3>Mail</h3>
+                            <p><a href="mailto:info@sekizfx1.com">info@sekizfx1.com</a></p>
                         </div>
                     </div>
 
@@ -22,7 +21,7 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <Icon.MapPin />
                             </div>
-                            <h3>Visit Here</h3>
+                            <h3>Ziyaret Et</h3>
                             <p>27 Division St, New York, NY 10002, United States of America</p>
                         </div>
                     </div>
@@ -32,9 +31,8 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <Icon.Phone />
                             </div>
-                            <h3>Call Here</h3>
+                            <h3>Telefon</h3>
                             <p><a href="tel:+1234567890">+123 456 7890</a></p>
-                            <p><a href="tel:+2414524526">+241 452 4526</a></p>
                         </div>
                     </div>
                 </div>

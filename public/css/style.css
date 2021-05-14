@@ -396,6 +396,10 @@ label {
   font-weight: 600;
 }
 
+.section-title h2 img {
+   margin-bottom: 5px;
+}
+
 .section-title p {
   max-width: 520px;
   margin: 0 auto;
@@ -895,6 +899,7 @@ Main Banner CSS
 }
 .main-banner .hero-content .apps  img{
   cursor: pointer;
+  width: 40px;
 }
 
 
@@ -1423,6 +1428,7 @@ Boxes CSS
   border: 1px dashed #cdf1d8;
   padding: 30px 20px;
   position: relative;
+  height: 300px;
   z-index: 1;
   border-radius: 5px;
   background: #ffffff;
@@ -1438,7 +1444,6 @@ Boxes CSS
   width: 55px;
   height: 55px;
   line-height: 55px;
-  background: #cdf1d8;
   border-radius: 50%;
   color: #44ce6f;
   -webkit-transition: 0.5s;
@@ -1706,6 +1711,32 @@ Services CSS
   overflow: hidden;
 }
 
+
+
+
+
+.services-content .video-container {
+  position: relative;
+  max-height: 800px;
+ 
+}
+
+.services-content .video-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.services-content .video-container video {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+}
+
 .services-content .section-title {
   text-align: left;
   margin-bottom: 20px;
@@ -1744,6 +1775,18 @@ Services CSS
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-top: 20px;
+}
+
+.services-content .box a {
+ 
+  color: #6084a4 !important;
+
+}
+.services-content .box:hover a {
+ 
+  cursor: pointer !important;
+  color: #fff !important;
+
 }
 
 .services-content .box::before {

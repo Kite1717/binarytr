@@ -10,75 +10,76 @@ const Features = () => {
           <div className="col-lg-3 col-md-6">
             <div className="single-box">
               <div className="icon">
-                <img alt="deposit-icon" src="/images/features/deposit.svg" />
+                <img alt="deposit-icon" src="/images/features/para.svg" />
               </div>
 
               <h3>
                 <Link href="/feature-details">
-                  <a>Zero Configuration</a>
+                  <a>Esnek Yatırım</a>
                 </Link>
               </h3>
 
               <p>
-                Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                tempor incididunt ut labore dolore magna.
+                Son trendler: hızlı ve dijital ticaret , exspres alım satım
+                dakikalar içinde kazanç.. %90 e varan ödemeler.
               </p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
-            <div className="single-box bg-f78acb">
+            <div className="single-box">
               <div className="icon">
-                <img alt="deposit-icon" src="/images/features/withdraw.svg" />
+                <img alt="edu-icon" src="/images/features/egitim.svg" />
               </div>
 
               <h3>
                 <Link href="/feature-details">
-                  <a>Code Security</a>
+                  <a>Kapsamlı Eğitim</a>
                 </Link>
               </h3>
 
               <p>
-                Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                tempor incididunt ut labore dolore magna.
+                Eğitim bölümümüz de webtrader işlemleri ile ilgili eğitim
+                videoları bulabilir, piyasa bilgileri için danışmanlarımızla
+                bağlantı kurabilirsiniz.
               </p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
-            <div className="single-box bg-c679e3">
+            <div className="single-box">
               <div className="icon">
-                <img alt="deposit-icon" src="/images/features/trade.svg" />
+                <img alt="customer-icon" src="/images/features/musteri.svg" />
               </div>
 
               <h3>
                 <Link href="/feature-details">
-                  <a>Team Management</a>
+                  <a>Demo Hesap</a>
                 </Link>
               </h3>
 
               <p>
-                Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                tempor incididunt ut labore dolore magna.
+                Demo hesap ile sanal para kullanarak platformun tüm
+                avantajlarını deneyin. Yatırım gerektirmez, risk yoktur.
               </p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6">
-            <div className="single-box bg-eb6b3d">
+            <div className="single-box">
               <div className="icon">
-                <Icon.GitBranch />
+                <img alt="cok-icon" src="/images/features/yatirim.svg" />
               </div>
 
               <h3>
                 <Link href="/feature-details">
-                  <a>Access Controlled</a>
+                  <a>Çok Çeşitli Yatırım Enstrümanları</a>
                 </Link>
               </h3>
 
               <p>
-                Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod
-                tempor incididunt ut labore dolore magna.
+                Tüm yatırımcılar için uygun varlıklar: döviz, emtia, hisse
+                senetleri, kripto paralar, indeksler.
               </p>
             </div>
           </div>

@@ -112,9 +112,8 @@ class Feedback extends React.Component {
             <section className="feedback-area ptb-80 bg-f7fafd">
                 <div className="container">
                     <div className="section-title">
-                        <h2>What users Saying</h2>
+                        <h2>Sizlerin Gözünden   <img src="/images/logo.png" alt="logo" /></h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
 
                     <div className="feedback-slides">
@@ -176,21 +175,21 @@ class Feedback extends React.Component {
 
 const DEFAULT_PROPS = [
     {
-        name: 'David Gale', 
-        profession: 'Web Developer',
+        name: 'Sadettin Tosun', 
+        profession: '20.01.2021',
         image: '/images/client-image/client2.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: ' Kolay kolay hiç bir siteye yorum yapmam ama site için yorum yapıyorum tavsiye ediyorum çünkü kazanç oranları çok yüksek ve kaybetmek imkansız :D'
     },
     {
-        name: 'Matt Damon', 
-        profession: 'Software Engineer',
+        name: 'Mehmet Yılmaz', 
+        profession: '20.02.2021',
         image: '/images/client-image/client4.jpg', 
-        content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        content: 'Sadece 1₺ ye işlem sağlayabilmek ve çekim işleminin ışık hızıyla sonuçlandırılması'
     },
     {
-        name: 'Nicky Parsons', 
-        profession: 'Fictional Character',
-        image: '/images/client-image/client1.jpg', 
+        name: 'Semih Arslan', 
+        profession: '04.10.2020',
+        image: '/images/client-image/client5.jpg', 
         content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {

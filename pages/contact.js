@@ -11,7 +11,7 @@ const Contact = () => {
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Contact Us" />
+            <PageBanner pageTitle="İletişim" />
 
             <ContactInfo />
 

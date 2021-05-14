@@ -56,9 +56,9 @@ const ContactForm = () => {
         <div className="contact-area ptb-80">
             <div className="container">
                 <div className="section-title">
-                    <h2>Get In Touch With Us</h2>
+                    <h2>Bizimle İletişime geçin</h2>
                     <div className="bar"></div>
-                    <p>Anything On your Mind. We’ll Be Glad To Assist You!</p>
+                    <p>Aklınızdaki herhangi birşey için seize yardımcı olmaktan memnun olacağız.</p>
                 </div>
 
                 <div className="row align-items-center">
@@ -74,14 +74,14 @@ const ContactForm = () => {
                                         <input 
                                             type="text" 
                                             name="name" 
-                                            placeholder="Your Name" 
+                                            placeholder="Adınız Soyadınız" 
                                             className="form-control" 
                                             value={contact.name}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
                                         />
                                         <div className='invalid-feedback' style={{display: 'block'}}>
-                                            {errors.name && 'Name is required.'}
+                                            {errors.name && 'Ad Soyad gereklidir.'}
                                         </div>
                                     </div>
                                 </div>
@@ -91,14 +91,14 @@ const ContactForm = () => {
                                         <input 
                                             type="text" 
                                             name="email" 
-                                            placeholder="Your email address" 
+                                            placeholder="E-mail adresiniz" 
                                             className="form-control" 
                                             value={contact.email}
                                             onChange={handleChange}
                                             ref={register({ required: true, pattern: /^\S+@\S+$/i })}
                                         />
                                         <div className='invalid-feedback' style={{display: 'block'}}>
-                                            {errors.email && 'Email is required.'}
+                                            {errors.email && 'Email gereklidir.'}
                                         </div>
                                     </div>
                                 </div>
@@ -108,14 +108,14 @@ const ContactForm = () => {
                                         <input 
                                             type="text" 
                                             name="number" 
-                                            placeholder="Your phone number" 
+                                            placeholder="Telefon numranız" 
                                             className="form-control" 
                                             value={contact.number}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
                                         />
                                         <div className='invalid-feedback' style={{display: 'block'}}>
-                                            {errors.number && 'Number is required.'}
+                                            {errors.number && 'Telefon numarası gereklidir.'}
                                         </div>
                                     </div>
                                 </div>
@@ -125,14 +125,14 @@ const ContactForm = () => {
                                         <input 
                                             type="text" 
                                             name="subject" 
-                                            placeholder="Your Subject" 
+                                            placeholder="Konunuz" 
                                             className="form-control" 
                                             value={contact.subject}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
                                         />
                                         <div className='invalid-feedback' style={{display: 'block'}}>
-                                            {errors.subject && 'Subject is required.'}
+                                            {errors.subject && 'Konu gereklidir.'}
                                         </div>
                                     </div>
                                 </div>
@@ -143,20 +143,20 @@ const ContactForm = () => {
                                             name="text" 
                                             cols="30" 
                                             rows="5" 
-                                            placeholder="Write your message..." 
+                                            placeholder="Mesajınızı yazınız..." 
                                             className="form-control" 
                                             value={contact.text}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
                                         />
                                         <div className='invalid-feedback' style={{display: 'block'}}>
-                                            {errors.text && 'Message is required.'}
+                                            {errors.text && 'Mesaj gereklidir.'}
                                         </div>
                                     </div>
                                 </div>
             
                                 <div className="col-lg-12 col-sm-12">
-                                    <button type="submit" className="btn btn-primary">Send Message</button>
+                                    <button type="submit" className="btn btn-primary">Mesaj Gönder</button>
                                 </div>
                             </div>
                         </form> 

@@ -20,10 +20,10 @@ const ITStartup = () => {
             <MainBanner />
             <Features />
             <ServicesArea />
+            <RecentWorks />
             <OurFeatures />
             <Team />
             <FunFactsArea />
-            <RecentWorks />
             <PricingStyleOne />
             <Feedback />
             <Partner />

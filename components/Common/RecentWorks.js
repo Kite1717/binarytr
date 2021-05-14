@@ -38,9 +38,9 @@ const RecentWorks = () => {
         <div className="works-area pt-80 pb-50 bg-f7fafd">
             <div className="container">
                 <div className="section-title">
-                    <h2>Our Recent Works</h2>
+                    <h2>Promosyonlarımız</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Şimdi üye ol. Bonuslardan yaralanmaya hemen başla.</p>
                 </div>
             </div>
 
@@ -48,86 +48,67 @@ const RecentWorks = () => {
                 className="works-slides owl-carousel owl-theme"
                 {...options}
             > 
+                
                 <div className="single-works">
-                    <img src="/images/works-image/works-image1.jpg" alt="image" />
+                    <img src="/images/works-image/deneme-bonus.jpg" alt="image" />
 
                     <Link href="/project-details">
-                        <a className="icon"><Icon.Settings /></a>
+                        <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
 
                     <div className="works-content">
                         <h3>
                             <Link href="/project-details">
-                                <a>Incredible infrastructure</a>
+                                <a>50 TL Deneme Bonusu</a>
                             </Link>
                         </h3>
-                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                    </div>
-                </div>
-    
-                <div className="single-works">
-                    <img src="/images/works-image/works-image2.jpg" alt="image" />
-
-                    <Link href="/project-details">
-                        <a className="icon"><Icon.Settings /></a>
-                    </Link>
-
-                    <div className="works-content">
-                        <h3>
-                            <Link href="/project-details">
-                                <a>Email Notifications</a>
-                            </Link>
-                        </h3>
-                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                    </div>
-                </div>
-    
-                <div className="single-works">
-                    <img src="/images/works-image/works-image3.jpg" alt="image" />
-
-                    <Link href="/project-details">
-                        <a className="icon"><Icon.Settings /></a>
-                    </Link>
-
-                    <div className="works-content">
-                        <h3>
-                            <Link href="/project-details">
-                                <a>Best Analytics Audits</a>
-                            </Link>
-                        </h3>
-                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                        <p>İlk yatırımızdan 50 TL bonus hediye !</p>
                     </div>
                 </div>
         
                 <div className="single-works">
-                    <img src="/images/works-image/works-image4.jpg" alt="image" />
+                    <img src="/images/works-image/arkadas-bonus.jpg" alt="image" />
 
                     <Link href="/project-details">
-                        <a className="icon"><Icon.Settings /></a>
+                        <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
 
                     <div className="works-content">
                         <h3>
                             <Link href="/project-details">
-                                <a>Simple Dashboard</a>
+                                <a>%40 Arkadaş Bonusu</a>
                             </Link>
                         </h3>
-                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                        <p>Sizlerin tavsiyesi ile sitemize üye olan arkadaşlarınızın yapacakları ilk yatırımından, %40 referans bonusu kazanabilirsiniz.</p>
                     </div>
                 </div>
     
                 <div className="single-works">
-                    <img src="/images/works-image/works-image5.jpg" alt="image" />
+                    <img src="/images/works-image/kayip-bonus.jpg" alt="image" />
 
                     <Link href="/project-details">
-                        <a className="icon"><Icon.Settings /></a>
+                        <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
                     
                     <div className="works-content">
                         <h3>
-                            <Link href="/project-details"><a>Information Retrieval</a></Link>
+                            <Link href="/project-details"><a>%20 Kayıp Bonusu</a></Link>
                         </h3>
-                        <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                        <p>Tüm bakiyenizin sıfırlanması durumunda, Tüm hafta boyunca kaybettiğiniz ana bakiyenizin %20’ sini tekrar hesabınıza ekliyoruz.</p>
+                    </div>
+                </div>
+                <div className="single-works">
+                    <img src="/images/works-image/yatirim-bonus.jpg" alt="image" />
+
+                    <Link href="/project-details">
+                        <a className="icon"><Icon.ArrowRightCircle /></a>
+                    </Link>
+                    
+                    <div className="works-content">
+                        <h3>
+                            <Link href="/project-details"><a>%50 Yatırım Bonusu</a></Link>
+                        </h3>
+                        <p>İlk yatırımızdan başlayarak, devam edeceğiniz tüm yatırımlarınızda geçerli olarak %50 yatırım bonusu uygulanacaktır.</p>
                     </div>
                 </div>
             </OwlCarousel> : ''}
