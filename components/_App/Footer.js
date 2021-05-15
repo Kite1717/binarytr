@@ -22,7 +22,7 @@ const Footer = () => {
                                     </a>
                                 </Link>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                            <p className="des">Finansal piyasalarda alım satım yapmak riskler taşır. Ticaret yapmaya karar vermeden önce, ilgili riskleri anladığınızdan ve yatırım hedeflerinizi ve deneyim seviyenizi hesaba kattığınızdan emin olmanız gerekir. <br /> Bu sitede yer alan tüm içerik ve hizmetler telif haklarına tabidir ve tüm hakları Binary Trade firmasına aittir. <br /> Alan adının sahibi Binary Trade firmasıdır. Bu web sitesi üzerinde gerçekleştirilen tüm brokerlik faaliyetleri Binary Trade firması tarafından sağlanmaktadır. </p>
                         </div>
                     </div>
 
@@ -61,31 +61,31 @@ const Footer = () => {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="single-footer-widget">
-                            <h3>Support</h3>
+                            <h3>Destek</h3>
                             <ul className="list">
                                 <li>
                                     <Link href="/faq">
-                                        <a>FAQ's</a>
+                                        <a>RİSK BEYANI</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/privacy-policy">
-                                        <a>Privacy Policy</a>
+                                    <Link href="/faq">
+                                        <a>Şartlar ve Koşullar</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/term-condition">
-                                        <a>Terms & Condition</a>
+                                    <Link href="/faq">
+                                        <a>AML ve KYC Politikası</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/team">
-                                        <a>Team</a>
+                                    <Link href="/faq">
+                                        <a>Gizlilik Politikası</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/contact">
-                                        <a>Contact Us</a>
+                                        <a>İletişim</a>
                                     </Link>
                                 </li>
                             </ul>
@@ -94,18 +94,18 @@ const Footer = () => {
 
                     <div className="col-lg-3 col-md-6">
                         <div className="single-footer-widget">
-                            <h3>Address</h3>
-                            
+                            <h3>Adres</h3>
+
                             <ul className="footer-contact-info">
-                                <li> 
+                                <li>
                                     <Icon.MapPin />
                                     27 Division St, New York, <br /> NY 10002, USA
                                 </li>
                                 <li>
                                     <Icon.Mail />
-                                    Email: <a href="mailto:startp@gmail.com">startp@gmail.com</a>
+                                    Email: <a href="mailto:info@sekizfx1.com">info@sekizfx1.com</a>
                                 </li>
-                                <li> 
+                                <li>
                                     <Icon.PhoneCall />
                                     Phone: <a href="tel:321984754">+ (321) 984 754</a>
                                 </li>
@@ -154,7 +154,7 @@ const Footer = () => {
             </div>
         </footer>
     )
-     
+
 }
 
-export default Footer; 
+export default Footer;

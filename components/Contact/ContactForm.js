@@ -8,8 +8,8 @@ import baseUrl from '../../utils/baseUrl';
 
 const alertContent = () => {
     MySwal.fire({
-        title: 'Congratulations!',
-        text: 'Your message was successfully send and will back to you soon',
+        title: 'Tebrikler!',
+        text: 'Mesajınız başarıyla gönderilmiştir',
         icon: 'success',
         timer: 2000,
         timerProgressBar: true,
@@ -40,9 +40,9 @@ const ContactForm = () => {
     const onSubmit = async e => {
         // e.preventDefault();
         try {
-            const url = `${baseUrl}/api/contact`;
+            const url = `https://sekizfx-mailer.herokuapp.com/api/mail/send`;
             const { name, email, number, subject, text } = contact;
-            const payload = { name, email, number, subject, text };
+            const payload = { name, email, phone: number, subject, message: text };
             await axios.post(url, payload);
             console.log(url);
             setContact(INITIAL_STATE);
@@ -71,11 +71,11 @@ const ContactForm = () => {
                             <div className="row">
                                 <div className="col-lg-12 col-md-12">
                                     <div className="form-group">
-                                        <input 
-                                            type="text" 
-                                            name="name" 
-                                            placeholder="Adınız Soyadınız" 
-                                            className="form-control" 
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            placeholder="Adınız Soyadınız"
+                                            className="form-control"
                                             value={contact.name}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
@@ -88,11 +88,11 @@ const ContactForm = () => {
 
                                 <div className="col-lg-12 col-md-12">
                                     <div className="form-group">
-                                        <input 
-                                            type="text" 
-                                            name="email" 
-                                            placeholder="E-mail adresiniz" 
-                                            className="form-control" 
+                                        <input
+                                            type="text"
+                                            name="email"
+                                            placeholder="E-mail adresiniz"
+                                            className="form-control"
                                             value={contact.email}
                                             onChange={handleChange}
                                             ref={register({ required: true, pattern: /^\S+@\S+$/i })}
@@ -105,11 +105,11 @@ const ContactForm = () => {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
-                                        <input 
-                                            type="text" 
-                                            name="number" 
-                                            placeholder="Telefon numranız" 
-                                            className="form-control" 
+                                        <input
+                                            type="text"
+                                            name="number"
+                                            placeholder="Telefon numranız"
+                                            className="form-control"
                                             value={contact.number}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
@@ -122,11 +122,11 @@ const ContactForm = () => {
 
                                 <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
-                                        <input 
-                                            type="text" 
-                                            name="subject" 
-                                            placeholder="Konunuz" 
-                                            className="form-control" 
+                                        <input
+                                            type="text"
+                                            name="subject"
+                                            placeholder="Konunuz"
+                                            className="form-control"
                                             value={contact.subject}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
@@ -139,12 +139,12 @@ const ContactForm = () => {
 
                                 <div className="col-lg-12 col-md-12">
                                     <div className="form-group">
-                                        <textarea 
-                                            name="text" 
-                                            cols="30" 
-                                            rows="5" 
-                                            placeholder="Mesajınızı yazınız..." 
-                                            className="form-control" 
+                                        <textarea
+                                            name="text"
+                                            cols="30"
+                                            rows="5"
+                                            placeholder="Mesajınızı yazınız..."
+                                            className="form-control"
                                             value={contact.text}
                                             onChange={handleChange}
                                             ref={register({ required: true })}
@@ -154,12 +154,12 @@ const ContactForm = () => {
                                         </div>
                                     </div>
                                 </div>
-            
+
                                 <div className="col-lg-12 col-sm-12">
                                     <button type="submit" className="btn btn-primary">Mesaj Gönder</button>
                                 </div>
                             </div>
-                        </form> 
+                        </form>
                     </div>
                 </div>
             </div>
@@ -167,4 +167,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;  
+export default ContactForm;

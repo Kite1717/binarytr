@@ -8,7 +8,7 @@ const Navbar = () => {
     const { t } = useTranslation('navbar')
     const cart = useSelector((state) => state.cart)
     const [menu, setMenu] = React.useState(true)
- 
+
     const toggleNavbar = () => {
         setMenu(!menu)
     }
@@ -22,9 +22,9 @@ const Navbar = () => {
                 elementId.classList.remove("is-sticky");
             }
         });
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
     })
- 
+
     const classOne = menu ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
     const classTwo = menu ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
@@ -39,13 +39,13 @@ const Navbar = () => {
                             </a>
                         </Link>
 
-                        <button 
-                            onClick={toggleNavbar} 
+                        <button
+                            onClick={toggleNavbar}
                             className={classTwo}
-                            type="button" 
-                            data-toggle="collapse" 
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                            aria-expanded="false" 
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
                             <span className="icon-bar top-bar"></span>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                                 <a onClick={toggleNavbar} className="nav-link">IT Startup Two</a>
                                             </Link>
                                         </li>
- 
+
                                         <li className="nav-item">
                                             <Link href="/iot" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">IOT</a>
@@ -97,7 +97,7 @@ const Navbar = () => {
                                             <Link href="/machine-learning-2" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">Machine Learning 2</a>
                                             </Link>
-                                        </li> 
+                                        </li>
 
                                         <li className="nav-item">
                                             <Link href="/bigdata-analytics" activeClassName="active">
@@ -116,7 +116,7 @@ const Navbar = () => {
                                                 <a onClick={toggleNavbar} className="nav-link">Digital Agency Portfolio</a>
                                             </Link>
                                         </li>
-  
+
                                         <li className="nav-item">
                                             <Link href="/pc-repair" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">PC Repair</a>
@@ -130,7 +130,7 @@ const Navbar = () => {
                                         <a  className="nav-link">
                                         {t('platforms')} <Icon.ChevronDown />
                                         </a>
-                                    </Link> 
+                                    </Link>
 
                                     <ul className="dropdown-menu">
                                         <li className="nav-item">
@@ -302,7 +302,7 @@ const Navbar = () => {
                                                 </li>
                                             </ul>
                                         </li>
-                                    
+
                                         <li className="nav-item">
                                             <Link href="/faq" activeClassName="active">
                                                 <a onClick={toggleNavbar} className="nav-link">FAQ's</a>
@@ -406,19 +406,19 @@ const Navbar = () => {
                         </div>
 
                         <div className="others-option">
-                            <Link href="/cart">
+                            {/*<Link href="/cart">
                                 <a className="cart-wrapper-btn">
-                                    <Icon.ShoppingCart /> 
+                                    <Icon.ShoppingCart />
                                     <span>{cart.length}</span>
                                 </a>
-                            </Link>
+                            </Link>*/}
 
                             <Link href="/contact">
-							    <a className="btn btn-light">Support</a>
+							    <a className="btn btn-light">Destek</a>
                             </Link>
 
                             <Link href="/login">
-							    <a className="btn btn-primary">Login</a>
+							    <a className="btn btn-primary">Giriş Yap</a>
                             </Link>
 						</div>
                     </nav>
