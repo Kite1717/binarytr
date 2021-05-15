@@ -45,7 +45,7 @@ const FunFactsArea = () => {
                     <h3>Tek tıkla yatırım yap</h3>
                     <img src="/images/logo.png" alt="logo" />
 
-                    <Link href="/contact">
+                    <Link href="/login">
                         <a className="btn btn-primary">Şimdi Göz Atın</a>
                     </Link>
                 </div>

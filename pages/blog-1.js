@@ -5,12 +5,14 @@ import PageBanner from '@/components/Common/PageBanner';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
 
+import PromBanner from "@/components/ITStartup/PromBanner";
+
 const Blog1 = () => {
     return (
         <>
             <Navbar />
 
-            <PageBanner pageTitle="Blog Grid" />
+            <PromBanner/>
 
             <div className="blog-area ptb-80">
                 <div className="container">

@@ -1,165 +1,125 @@
-import React from 'react';
+import React from "react";
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner';
-import Link from 'next/link';
-import * as Icon from 'react-feather';
- 
+import Link from "next/link";
+
+import dynamic from "next/dynamic";
+const OwlCarousel = dynamic(import("react-owl-carousel3"));
+import * as Icon from "react-feather";
+import ProductBanner from "@/components/ITStartup/ProductBanner";
+import Features from "@/components/ITStartup/Features";
+import FunFactsArea from "@/components/Common/FunFactsArea";
+
+const options = {
+  items: 5,
+  loop: true,
+  nav: false,
+  dots: true,
+  margin: 30,
+  autoplay: true,
+  smartSpeed: 1000,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+    1200: {
+      items: 4,
+    },
+    1500: {
+      items: 5,
+    },
+  },
+};
 const Services5 = () => {
-    return (
-        <>
-            <Navbar />
+  const [display, setDisplay] = React.useState(false);
 
-            <PageBanner pageTitle="Services Style Five" />
+  React.useEffect(() => {
+    setDisplay(true);
+  }, []);
+  return (
+    <>
+      <Navbar />
 
-            <div className="agency-services-area ptb-80 pb-50">
-                <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="agency-services-box">
-                                <img src="/images/agency-image/agency-services-img1.jpg" alt="image" />
+      <ProductBanner />
 
-                                <div className="content">
-                                    <h3>
-                                        <Link href="/service-details">
-                                            <a>IT Professionals</a>
-                                        </Link>
-                                    </h3>
+      <div className="agency-services-area pb-50">
+        <div className="">
 
-                                    <Link href="/service-details">
-                                        <a className="read-more-btn">
-                                            Read More <Icon.PlusCircle />
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="agency-services-box">
-                                <img src="/images/agency-image/agency-services-img2.jpg" alt="image" />
-
-                                <div className="content">
-                                    <h3>
-                                        <Link href="/service-details">
-                                            <a>Software Engineers</a>
-                                        </Link>
-                                    </h3>
-
-                                    <Link href="/service-details">
-                                        <a className="read-more-btn">
-                                            Read More <Icon.PlusCircle />
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="agency-services-box">
-                            <img src="/images/agency-image/agency-services-img3.jpg" alt="image" />
-
-                                <div className="content">
-                                    <h3>
-                                        <Link href="/service-details">
-                                            <a>Web Development</a>
-                                        </Link>
-                                    </h3>
-
-                                    <Link href="/service-details">
-                                        <a className="read-more-btn">
-                                            Read More <Icon.PlusCircle />
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="agency-services-box">
-                            <img src="/images/agency-image/agency-services-img4.jpg" alt="image" />
-
-                                <div className="content">
-                                    <h3>
-                                        <Link href="/service-details">
-                                            <a>SEO & Content</a>
-                                        </Link>
-                                    </h3>
-
-                                    <Link href="/service-details">
-                                        <a className="read-more-btn">
-                                            Read More <Icon.PlusCircle />
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="agency-services-box">
-                            <img src="/images/agency-image/agency-services-img5.jpg" alt="image" />
-
-                                <div className="content">
-                                    <h3>
-                                        <Link href="/service-details">
-                                            <a>Digital Marketing</a>
-                                        </Link>
-                                    </h3>
-
-                                    <Link href="/service-details">
-                                        <a className="read-more-btn">
-                                            Read More <Icon.PlusCircle />
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div className="col-lg-4 col-sm-6 col-md-6">
-                            <div className="agency-services-box">
-                                <img src="/images/agency-image/agency-services-img6.jpg" alt="image" />
-
-                                <div className="content">
-                                    <h3>
-                                        <Link href="/service-details">
-                                            <a>Data Analysts</a>
-                                        </Link>
-                                    </h3>
-
-                                    <Link href="/service-details">
-                                        <a className="read-more-btn">
-                                            Read More <Icon.PlusCircle />
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <Features />
+          {display ? (
+            <OwlCarousel
+              className="team-slider owl-carousel owl-theme owl-theme-style"
+              {...options}
+            >
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/1.jpg" alt="image" />
                 </div>
+              </div>
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/2.jpg" alt="image" />
+                </div>
+              </div>
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/3.jpg" alt="image" />
+                </div>
+              </div>
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/4.jpg" alt="image" />
+                </div>
+              </div>
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/5.jpg" alt="image" />
+                </div>
+              </div>
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/6.jpg" alt="image" />
+                </div>
+              </div>
+              <div className="single-team">
+                <div className="team-image2">
+                  <img src="/images/plat-image/7.jpg" alt="image" />
+                </div>
+              </div>
+            </OwlCarousel>
+          ) : (
+            ""
+          )}
+          <FunFactsArea/>
+        </div>
 
-                {/* Shape Images */}
-                <div className="shape2 rotateme">
-                    <img src="/images/shape2.svg" alt="shape" />
-                </div>
-                <div className="shape3">
-                    <img src="/images/shape3.svg" alt="shape" />
-                </div>
-                <div className="shape4">
-                    <img src="/images/shape4.svg" alt="shape" />
-                </div>
-                <div className="shape6 rotateme">
-                    <img src="/images/shape4.svg" alt="shape" />
-                </div>
-                <div className="shape7">
-                    <img src="/images/shape4.svg" alt="shape" />
-                </div>
-                <div className="shape8 rotateme">
-                    <img src="/images/shape2.svg" alt="shape" />
-                </div>
-            </div>
+        {/* Shape Images */}
+        <div className="shape2 rotateme">
+          <img src="/images/shape2.svg" alt="shape" />
+        </div>
+        <div className="shape3">
+          <img src="/images/shape3.svg" alt="shape" />
+        </div>
+        <div className="shape4">
+          <img src="/images/shape4.svg" alt="shape" />
+        </div>
+        <div className="shape6 rotateme">
+          <img src="/images/shape4.svg" alt="shape" />
+        </div>
+        <div className="shape7">
+          <img src="/images/shape4.svg" alt="shape" />
+        </div>
+        <div className="shape8 rotateme">
+          <img src="/images/shape2.svg" alt="shape" />
+        </div>
+      </div>
 
-            <Footer />
-        </>
-    )
-}
+      <Footer />
+    </>
+  );
+};
 
 export default Services5;

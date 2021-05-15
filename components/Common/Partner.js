@@ -9,7 +9,7 @@ const Partner = () => {
                     <h3>Ödeme Yöntemlerimiz</h3>
                      {/*<p>Our team is here to answer your question about StartP</p>*/}
                     
-                    <Link href="/contact">
+                    <Link href="/login">
                         <a className="btn btn-primary">Hemen Başla</a>
                     </Link>
 

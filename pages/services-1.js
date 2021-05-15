@@ -3,7 +3,6 @@ import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import EducationBanner from "@/components/ITStartup/EducationBanner";
 import Link from "next/link";
-import * as Icon from "react-feather";
 
 const Services1 = () => {
   return (

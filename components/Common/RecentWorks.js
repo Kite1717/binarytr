@@ -52,13 +52,13 @@ const RecentWorks = () => {
                 <div className="single-works">
                     <img src="/images/works-image/deneme-bonus.jpg" alt="image" />
 
-                    <Link href="/project-details">
+                    <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
 
                     <div className="works-content">
                         <h3>
-                            <Link href="/project-details">
+                            <Link href="/blog-1">
                                 <a>50 TL Deneme Bonusu</a>
                             </Link>
                         </h3>
@@ -69,13 +69,13 @@ const RecentWorks = () => {
                 <div className="single-works">
                     <img src="/images/works-image/arkadas-bonus.jpg" alt="image" />
 
-                    <Link href="/project-details">
+                    <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
 
                     <div className="works-content">
                         <h3>
-                            <Link href="/project-details">
+                            <Link href="/blog-1">
                                 <a>%40 Arkadaş Bonusu</a>
                             </Link>
                         </h3>
@@ -86,13 +86,13 @@ const RecentWorks = () => {
                 <div className="single-works">
                     <img src="/images/works-image/kayip-bonus.jpg" alt="image" />
 
-                    <Link href="/project-details">
+                    <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
                     
                     <div className="works-content">
                         <h3>
-                            <Link href="/project-details"><a>%20 Kayıp Bonusu</a></Link>
+                            <Link href="/blog-1"><a>%20 Kayıp Bonusu</a></Link>
                         </h3>
                         <p>Tüm bakiyenizin sıfırlanması durumunda, Tüm hafta boyunca kaybettiğiniz ana bakiyenizin %20’ sini tekrar hesabınıza ekliyoruz.</p>
                     </div>
@@ -100,13 +100,13 @@ const RecentWorks = () => {
                 <div className="single-works">
                     <img src="/images/works-image/yatirim-bonus.jpg" alt="image" />
 
-                    <Link href="/project-details">
+                    <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
                     
                     <div className="works-content">
                         <h3>
-                            <Link href="/project-details"><a>%50 Yatırım Bonusu</a></Link>
+                            <Link href="/blog-1"><a>%50 Yatırım Bonusu</a></Link>
                         </h3>
                         <p>İlk yatırımızdan başlayarak, devam edeceğiniz tüm yatırımlarınızda geçerli olarak %50 yatırım bonusu uygulanacaktır.</p>
                     </div>

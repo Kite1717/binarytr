@@ -154,8 +154,8 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link href="/#">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
+                                    <Link  href="/services-5">
+                                        <a className="nav-link">
                                         {t('products')} <Icon.ChevronDown />
                                         </a>
                                     </Link>
@@ -346,8 +346,8 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link href="/#">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
+                                    <Link href="/blog-1">
+                                        <a  className="nav-link">
                                         {t('promotions')} <Icon.ChevronDown />
                                         </a>
                                     </Link>

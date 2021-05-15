@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ProductBanner = () => {
+const EducationBanner = () => {
   return (
     <div className="main-banner edu-banner ">
       <div className="d-table">
@@ -11,8 +11,23 @@ const ProductBanner = () => {
               <div className="col-lg-5">
                 <div className="hero-content">
                   <h1 className="animate__animated animate__zoomIn animate__delay-0.1">
-                    <span >Eğitim Videolarını İzleyerek <br/></span> Daha Fazla Bilgi Sahibi Olabilirsin
+                    <span >Bonuslardan <br/></span> Yararlanmaya Başla
                   </h1>
+                  <div className = "d-flex h-100 justify-content-between align-items-center trade-info">
+
+                  <div className="text-center">
+                      <h2 className="animate__animated animate__zoomIn animate__delay-1s">50 <span className="try">₺</span></h2>
+                      <span >Minimum Yatırım <br/>Miktarı</span>
+                  </div>
+                  <div className="text-center">
+                      <h2  className="animate__animated animate__zoomIn animate__delay-1s"> 100 <span className="try">₺</span></h2>
+                      <span>Minimum Çekim <br/>Miktarı</span>
+                  </div>
+                  <div className="text-center">
+                      <h2  className="animate__animated animate__zoomIn animate__delay-1s">1<span className="try">₺</span></h2>
+                      <span >Minimum İşlem <br/>Miktarı</span>
+                  </div>
+                  </div>
                   <Link href="/contact">
                     <a className="btn btn-primary">Hemen Başla</a>
                   </Link>
@@ -28,7 +43,7 @@ const ProductBanner = () => {
               <div className="col-lg-6 offset-lg-1">
                 <div className="">
                   <img
-                    src="/images/banner-image/prod-edu/main-pic.png"
+                    src="/images/banner-image/prod-prom/main-pic.png"
                     className="animate__animated animate__fadeInDown animate__delay-0.1"
                     alt="main-pic"
                   />
@@ -68,4 +83,4 @@ const ProductBanner = () => {
   );
 };
 
-export default ProductBanner;
+export default EducationBanner;
