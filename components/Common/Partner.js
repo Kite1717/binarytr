@@ -26,12 +26,12 @@ const Partner = () => {
                     <h5>14 Farklı Ödeme aracı ile kolaylıkla yatırım yapıp çekim işlemi yapabilirsiniz.</h5>
 
                     <div className="partner-inner">
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center align-items-center">
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-6.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover6.png" alt="partner" />
+                                        <img src="/images/payment-image/1.png" alt="partner" />
+                                        <img src="/images/payment-image/1.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -39,8 +39,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-2.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover2.png" alt="partner" />
+                                    <img src="/images/payment-image/2.png" alt="partner" />
+                                        <img src="/images/payment-image/2.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -48,8 +48,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-3.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover3.png" alt="partner" />
+                                    <img src="/images/payment-image/3.png" alt="partner" />
+                                        <img src="/images/payment-image/3.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -57,8 +57,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-4.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover4.png" alt="partner" />
+                                    <img src="/images/payment-image/4.png" alt="partner" />
+                                        <img src="/images/payment-image/4.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -66,8 +66,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-5.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover5.png" alt="partner" />
+                                    <img src="/images/payment-image/5.png" alt="partner" />
+                                        <img src="/images/payment-image/5.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -75,8 +75,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-6.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover6.png" alt="partner" />
+                                    <img src="/images/payment-image/6.png" alt="partner" />
+                                        <img src="/images/payment-image/6.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -84,8 +84,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-7.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover7.png" alt="partner" />
+                                    <img src="/images/payment-image/7.png" alt="partner" />
+                                        <img src="/images/payment-image/7.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -93,8 +93,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-6.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover6.png" alt="partner" />
+                                    <img src="/images/payment-image/8.png" alt="partner" />
+                                        <img src="/images/payment-image/8.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -102,8 +102,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-2.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover2.png" alt="partner" />
+                                    <img src="/images/payment-image/9.png" alt="partner" />
+                                        <img src="/images/payment-image/9.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -111,8 +111,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-3.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover3.png" alt="partner" />
+                                    <img src="/images/payment-image/10.png" alt="partner" />
+                                        <img src="/images/payment-image/10.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -120,8 +120,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-4.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover4.png" alt="partner" />
+                                    <img src="/images/payment-image/11.png" alt="partner" />
+                                        <img src="/images/payment-image/11.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -129,8 +129,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-5.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover5.png" alt="partner" />
+                                    <img src="/images/payment-image/12.png" alt="partner" />
+                                        <img src="/images/payment-image/12.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -138,8 +138,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-6.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover6.png" alt="partner" />
+                                    <img src="/images/payment-image/13.png" alt="partner" />
+                                        <img src="/images/payment-image/13.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>
@@ -147,44 +147,8 @@ const Partner = () => {
                             <div className="col-lg-2 col-md-3 col-6">
                                 <Link href="#">
                                     <a target="_balnk">
-                                        <img src="/images/partner-img/partner-7.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover7.png" alt="partner" />
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <Link href="#">
-                                    <a target="_balnk">
-                                        <img src="/images/partner-img/partner-3.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover3.png" alt="partner" />
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <Link href="#">
-                                    <a target="_balnk">
-                                        <img src="/images/partner-img/partner-4.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover4.png" alt="partner" />
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <Link href="#">
-                                    <a target="_balnk">
-                                        <img src="/images/partner-img/partner-5.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover5.png" alt="partner" />
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div className="col-lg-2 col-md-3 col-6">
-                                <Link href="#">
-                                    <a target="_balnk">
-                                        <img src="/images/partner-img/partner-6.png" alt="partner" />
-                                        <img src="/images/partner-img/partner-hover6.png" alt="partner" />
+                                    <img src="/images/payment-image/14.png" alt="partner" />
+                                        <img src="/images/payment-image/14.png" alt="partner" />
                                     </a>
                                 </Link>
                             </div>

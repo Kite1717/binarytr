@@ -894,6 +894,10 @@ Main Banner CSS
   margin-bottom: 20px;
 }
 
+.edu-banner .hero-content h1 {
+  font-size: 35px;
+ 
+}
 .main-banner .hero-content .apps {
   margin-top: 2rem;
 }
@@ -2040,6 +2044,9 @@ Services CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+.single-services-box video{
+ max-width: 100%;
+}
 
 .single-services-box h3 {
   font-size: 18px;
@@ -2594,6 +2601,13 @@ Team CSS
   border: 3px solid #cdf1d8;
   width: auto !important;
   border-radius: 50%;
+  display: inline-block !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.single-team .team-image2 img {
+  width: auto !important;
   display: inline-block !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -4176,7 +4190,7 @@ Partner CSS
 }
 
 .partner-section .partner-inner {
-  background: #ffffff;
+  background: #c67ae3;
   padding-top: 5px;
   padding-left: 30px;
   padding-right: 30px;
@@ -8750,6 +8764,30 @@ Our Solutions CSS
   position: relative;
   z-index: 1;
 }
+
+
+.solutions-area .video-container {
+  position: relative;
+  max-height: 800px;
+ 
+}
+
+.solutions-area .video-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.solutions-area .video-container video {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+}
+
 
 .single-solutions-box {
   padding: 20px 15px;

@@ -56,8 +56,8 @@ const Navbar = () => {
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <Link href="/#" activeClassName="active">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
+                                    <Link href="/services-3" activeClassName="active">
+                                        <a  className="nav-link">
                                             {t('binary-opt')} <Icon.ChevronDown />
                                         </a>
                                     </Link>
@@ -126,8 +126,8 @@ const Navbar = () => {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Link href="/#">
-                                        <a onClick={e => e.preventDefault()} className="nav-link">
+                                    <Link  href="/services-2">
+                                        <a  className="nav-link">
                                         {t('platforms')} <Icon.ChevronDown />
                                         </a>
                                     </Link> 
