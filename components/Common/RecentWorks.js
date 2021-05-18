@@ -44,13 +44,13 @@ const RecentWorks = () => {
                 </div>
             </div>
 
-            {display ? <OwlCarousel 
+            {display ? <OwlCarousel
                 className="works-slides owl-carousel owl-theme"
                 {...options}
-            > 
-                
+            >
+
                 <div className="single-works">
-                    <img src="/images/works-image/deneme-bonus.jpg" alt="image" />
+                    <img src="/images/works-image/PROMOSYONSAYFASI-04.png" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
@@ -65,9 +65,9 @@ const RecentWorks = () => {
                         <p>İlk yatırımızdan 50 TL bonus hediye !</p>
                     </div>
                 </div>
-        
+
                 <div className="single-works">
-                    <img src="/images/works-image/arkadas-bonus.jpg" alt="image" />
+                    <img src="/images/works-image/PROMOSYONSAYFASI-03.png" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
@@ -82,14 +82,14 @@ const RecentWorks = () => {
                         <p>Sizlerin tavsiyesi ile sitemize üye olan arkadaşlarınızın yapacakları ilk yatırımından, %40 referans bonusu kazanabilirsiniz.</p>
                     </div>
                 </div>
-    
+
                 <div className="single-works">
-                    <img src="/images/works-image/kayip-bonus.jpg" alt="image" />
+                    <img src="/images/works-image/PROMOSYONSAYFASI-02.png" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
-                    
+
                     <div className="works-content">
                         <h3>
                             <Link href="/blog-1"><a>%20 Kayıp Bonusu</a></Link>
@@ -98,12 +98,12 @@ const RecentWorks = () => {
                     </div>
                 </div>
                 <div className="single-works">
-                    <img src="/images/works-image/yatirim-bonus.jpg" alt="image" />
+                    <img src="/images/works-image/PROMOSYONSAYFASI-01.png" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
                     </Link>
-                    
+
                     <div className="works-content">
                         <h3>
                             <Link href="/blog-1"><a>%50 Yatırım Bonusu</a></Link>
@@ -112,7 +112,7 @@ const RecentWorks = () => {
                     </div>
                 </div>
             </OwlCarousel> : ''}
-            
+
             {/* Shape Images */}
             <div className="shape8 rotateme">
                 <img src="/images/shape2.svg" alt="shape" />
