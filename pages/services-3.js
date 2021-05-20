@@ -3,7 +3,7 @@ import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
 import Link from 'next/link';
 import * as Icon from 'react-feather';
- 
+
 import TwoOptBanner from "@/components/ITStartup/TwoOptBanner";
 const Services3 = () => {
     return (
@@ -12,7 +12,7 @@ const Services3 = () => {
 
             <TwoOptBanner/>
 
-           
+
             <div className="solutions-area ">
             <div className="video-container">
                 <video
@@ -72,7 +72,9 @@ const Services3 = () => {
                                         <a>Hızlı ve online kayıt olabilme imkanı</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                             </div>
                         </div>
 
@@ -81,15 +83,17 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-bar-chart-alt"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Demo hesap ile piyasaları takip edip canlı hesaba geçmeden önce tecrübe kazanma imkanı</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
-                             
+*/}
+
+
                             </div>
                         </div>
 
@@ -98,15 +102,17 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-devices"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Gelişmiş işlem platformları</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
-                                
+*/}
+
+
                             </div>
                         </div>
 
@@ -115,13 +121,15 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Kullanım kolaylığı</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                             </div>
                         </div>
 
@@ -130,14 +138,16 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-landscape"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Promosyonlar ile yüksek marj desteği</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             </div>
                         </div>
 
@@ -146,14 +156,16 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-bar-chart-alt"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>%90 a varan kazanç oranları</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
+*/}
+
                             </div>
                         </div>
 
@@ -162,14 +174,16 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-devices"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Anında para yatırma ve çekme imkanı</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                                
+*/}
+
                             </div>
                         </div>
 
@@ -178,13 +192,15 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Farklı para yatırma ve farklı para çekme seçenekleri</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                             </div>
                         </div>
 
@@ -194,13 +210,15 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>50’den fazla Parite,Metaller,İndeksler ve Coinlerde işlem yapma imkanı</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                             </div>
                         </div>
 
@@ -210,13 +228,15 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Hızlı Canlı Destek ve Türkçe konuşan danışmanlar</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                             </div>
                         </div>
 
@@ -225,13 +245,15 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>İndikatör ve Osilatörlerde kendi teknik analizini oluşturabilme imkanı</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                             </div>
                         </div>
 
@@ -242,7 +264,7 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Özelleştirilebilir ara yüzünü kendi isteğinize göre oluşturabilme imkanı</a>
@@ -259,7 +281,7 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>Kaybedebileceğiniz miktarın maksimum yatırımınız kadar olması</a>
@@ -276,7 +298,7 @@ const Services3 = () => {
                                 <div className="icon">
                                     <i className="bx bx-chalkboard"></i>
                                     <img src="/images/agency-image/agency-icon-bg.png" alt="image" />
-                                </div> 
+                                </div>
                                 <h3>
                                     <Link href="/service-details">
                                         <a>1 dakika kadar kısa sürede işleminizin sonuçlanması</a>
@@ -287,7 +309,7 @@ const Services3 = () => {
                         </div>
 
 
-                        
+
 
                     </div>
                 </div>

@@ -9,8 +9,9 @@ const Features = () => {
                 <div className="section-title">
                     <h2>Our Features</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
 
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
@@ -23,7 +24,9 @@ const Features = () => {
                                     <a>Incredible Infrastructure</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                         </div>
                     </div>
 
@@ -37,7 +40,9 @@ const Features = () => {
                                     <a>Information Retrieval</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                         </div>
                     </div>
 
@@ -51,7 +56,9 @@ const Features = () => {
                                     <a>Best Analytics Audits</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                         </div>
                     </div>
 
@@ -59,13 +66,15 @@ const Features = () => {
                         <div className="single-hosting-features">
                             <div className="icon bg-c679e3">
                                 <Icons.Grid />
-                            </div> 
+                            </div>
                             <h3>
                                 <Link href="/feature-details">
                                     <a>Simple Dashboard</a>
                                 </Link>
-                            </h3> 
+                            </h3>
+{/*
                             <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                         </div>
                     </div>
 
@@ -79,7 +88,9 @@ const Features = () => {
                                     <a>Email Notifications</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                         </div>
                     </div>
 
@@ -93,7 +104,9 @@ const Features = () => {
                                     <a>Deep Technical SEO</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
                         </div>
                     </div>
                 </div>

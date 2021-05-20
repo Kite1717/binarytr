@@ -50,7 +50,7 @@ const RecentWorks = () => {
             >
 
                 <div className="single-works">
-                    <img src="/images/works-image/PROMOSYONSAYFASI-04.png" alt="image" />
+                    <img src="/images/works-image/denemeBonus.jpg" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
@@ -67,7 +67,7 @@ const RecentWorks = () => {
                 </div>
 
                 <div className="single-works">
-                    <img src="/images/works-image/PROMOSYONSAYFASI-03.png" alt="image" />
+                    <img src="/images/works-image/arkadas-bonus.jpg" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
@@ -84,7 +84,7 @@ const RecentWorks = () => {
                 </div>
 
                 <div className="single-works">
-                    <img src="/images/works-image/PROMOSYONSAYFASI-02.png" alt="image" />
+                    <img src="/images/works-image/kayip-bonus.jpg" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>
@@ -98,7 +98,7 @@ const RecentWorks = () => {
                     </div>
                 </div>
                 <div className="single-works">
-                    <img src="/images/works-image/PROMOSYONSAYFASI-01.png" alt="image" />
+                    <img src="/images/works-image/yatirim-bonus.jpg" alt="image" />
 
                     <Link href="/blog-1">
                         <a className="icon"><Icon.ArrowRightCircle /></a>

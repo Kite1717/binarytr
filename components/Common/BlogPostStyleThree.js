@@ -37,13 +37,15 @@ const BlogPostStyleThree = () => {
 			<div className="container">
 				<div className="section-title text-left">
 					<h2>Our Recent <span>News</span></h2>
+{/*
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
 				</div>
 
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="blog-slides owl-carousel owl-theme"
                     {...options}
-                >   
+                >
                     <div className="single-blog-item">
                         <div className="post-image">
                             <Link href="/blog-details">
@@ -129,4 +131,4 @@ const BlogPostStyleThree = () => {
     )
 }
 
-export default BlogPostStyleThree;  
+export default BlogPostStyleThree;

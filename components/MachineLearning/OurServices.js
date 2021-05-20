@@ -9,8 +9,9 @@ const OurServices = () => {
                     <span className="sub-title">Our Solutions</span>
                     <h2>Our Services</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-sm-6">

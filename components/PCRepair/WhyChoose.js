@@ -9,9 +9,10 @@ const WhyChoose = () => {
                 <div className="section-title">
                     <h2>Why We Are Best From Others</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
+
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-repair-box">
@@ -19,7 +20,9 @@ const WhyChoose = () => {
                                 <i className="flaticon-handshake"></i>
                             </div>
                             <h3>Quick Repair Process</h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
 
                             <Link href="#">
                                 <a>
@@ -39,7 +42,9 @@ const WhyChoose = () => {
                                 <i className="flaticon-repair"></i>
                             </div>
                             <h3>Free Diagnostics</h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}
 
                             <Link href="#">
                                 <a>
@@ -60,7 +65,7 @@ const WhyChoose = () => {
                             </div>
                             <h3>Fast Delivery</h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+
                             <Link href="#">
                                 <a>
                                     <Icon.ArrowRight />

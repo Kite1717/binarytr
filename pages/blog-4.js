@@ -5,7 +5,7 @@ import PageBanner from '@/components/Common/PageBanner';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
 import BlogSidebar from '@/components/Blog/BlogSidebar';
- 
+
 const Blog4 = () => {
     return (
         <>
@@ -41,7 +41,9 @@ const Blog4 = () => {
                                                     <a>Making Peace With The Feast Or Famine Of Freelancing</a>
                                                 </Link>
                                             </h3>
+{/*
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 
                                             <Link href="/blog-details">
                                                 <a className="learn-more-btn">
@@ -69,14 +71,16 @@ const Blog4 = () => {
                                                     <li>August 18, 2021</li>
                                                 </ul>
                                             </div>
-        
+
                                             <h3>
                                                 <Link href="/blog-details">
                                                     <a>I Used The Web For A Day On A 50 MB Budget</a>
                                                 </Link>
                                             </h3>
+{/*
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                            
+*/}
+
                                             <Link href="/blog-details">
                                                 <a className="learn-more-btn">
                                                     Read Story <Icon.Plus />
@@ -103,14 +107,16 @@ const Blog4 = () => {
                                                     <li>August 15, 2021</li>
                                                 </ul>
                                             </div>
-        
+
                                             <h3>
                                                 <Link href="/blog-details">
                                                     <a>Here are the 5 most telling signs of micromanagement</a>
                                                 </Link>
                                             </h3>
+                                            {/*
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                            
+*/}
+
                                             <Link href="/blog-details">
                                                 <a className="learn-more-btn">
                                                     Read Story <Icon.Plus />
@@ -137,14 +143,16 @@ const Blog4 = () => {
                                                     <li>August 15, 2021</li>
                                                 </ul>
                                             </div>
-        
+
                                             <h3>
                                                 <Link href="/blog-details">
                                                     <a>The security risks of changing package owners</a>
                                                 </Link>
                                             </h3>
+                                            {/*
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                            
+*/}
+
                                             <Link href="/blog-details">
                                                 <a className="learn-more-btn">
                                                     Read Story <Icon.Plus />
@@ -171,14 +179,16 @@ const Blog4 = () => {
                                                     <li>August 18, 2021</li>
                                                 </ul>
                                             </div>
-        
+
                                             <h3>
                                                 <Link href="/blog-details">
                                                     <a>Tips to Protecting Your Business and Family</a>
                                                 </Link>
                                             </h3>
+                                            {/*
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                            
+*/}
+
                                             <Link href="/blog-details">
                                                 <a className="learn-more-btn">
                                                     Read Story <Icon.Plus />
@@ -205,14 +215,16 @@ const Blog4 = () => {
                                                     <li>August 15, 2021</li>
                                                 </ul>
                                             </div>
-        
+
                                             <h3>
                                                 <Link href="/blog-details">
                                                     <a>Protect Your Workplace from Cyber Attacks</a>
                                                 </Link>
                                             </h3>
+                                            {/*
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                            
+*/}
+
                                             <Link href="/blog-details">
                                                 <a className="learn-more-btn">
                                                     Read Story <Icon.Plus />
@@ -228,13 +240,13 @@ const Blog4 = () => {
                                         <nav aria-label="Page navigation">
                                             <ul className="pagination justify-content-center">
                                                 <li className="page-item"><a className="page-link" href="#">Prev</a></li>
-                                                
+
                                                 <li className="page-item active"><a className="page-link" href="#">1</a></li>
-                                                
+
                                                 <li className="page-item"><a className="page-link" href="#">2</a></li>
-                                                
+
                                                 <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                                
+
                                                 <li className="page-item"><a className="page-link" href="#">Next</a></li>
                                             </ul>
                                         </nav>
@@ -249,7 +261,7 @@ const Blog4 = () => {
                     </div>
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

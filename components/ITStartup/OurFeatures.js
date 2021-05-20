@@ -9,8 +9,9 @@ const OurFeatures = () => {
                 <div className="section-title">
                     <h2>Our Features</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
 
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
@@ -23,7 +24,9 @@ const OurFeatures = () => {
                                     <a>Incredible Infrastructure</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                         </div>
                     </div>
 
@@ -31,13 +34,15 @@ const OurFeatures = () => {
                         <div className="single-features">
                             <div className="icon">
                                 <Icon.Mail />
-                            </div> 
+                            </div>
                             <h3>
                                 <Link href="/feature-details">
                                     <a>Email Notifications</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                         </div>
                     </div>
 
@@ -51,7 +56,9 @@ const OurFeatures = () => {
                                     <a>Simple Dashboard</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                         </div>
                     </div>
 
@@ -65,7 +72,9 @@ const OurFeatures = () => {
                                     <a>Information Retrieval</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                         </div>
                     </div>
 
@@ -79,7 +88,9 @@ const OurFeatures = () => {
                                     <a>Drag & Drop Functionality</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                         </div>
                     </div>
 
@@ -93,7 +104,9 @@ const OurFeatures = () => {
                                     <a>Deadline Reminders</a>
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                         </div>
                     </div>
                 </div>
@@ -102,4 +115,4 @@ const OurFeatures = () => {
     )
 }
 
-export default OurFeatures;  
+export default OurFeatures;

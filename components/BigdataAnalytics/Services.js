@@ -9,7 +9,9 @@ const Services = () => {
                 <div className="section-title">
                     <h2>Services We Can Help You With</h2>
 					<div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                   {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                 </div>
 
                 <div className="row justify-content-center">
@@ -24,7 +26,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
+
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
                                     <Icon.ArrowRight /> Learn More
@@ -48,7 +50,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
+
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
                                     <Icon.ArrowRight /> Learn More
@@ -60,7 +62,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
@@ -72,7 +74,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
+
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
                                     <Icon.ArrowRight /> Learn More
@@ -84,7 +86,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
@@ -96,7 +98,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
+
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
                                     <Icon.ArrowRight /> Learn More
@@ -108,7 +110,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
@@ -120,7 +122,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
+
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
                                     <Icon.ArrowRight /> Learn More
@@ -132,7 +134,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="single-services-box-item">
                             <div className="icon">
@@ -144,7 +146,7 @@ const Services = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod ut labore et dolore magna aliqua.</p>
-                            
+
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
                                     <Icon.ArrowRight /> Learn More
@@ -162,4 +164,4 @@ const Services = () => {
     )
 }
 
-export default Services;  
+export default Services;

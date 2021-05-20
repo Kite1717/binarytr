@@ -9,7 +9,9 @@ const MainBanner = () => {
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-content">
                             <h1>World’s Leading AI & Machine Learning Company</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                            {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 
                             <Link href="/contact">
                                 <a className="btn btn-secondary">Get Started</a>
@@ -19,10 +21,10 @@ const MainBanner = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-single-image">
-                            <img 
-                                src="/images/ml-banner-image/ml-main-pic.png" 
-                                className="animate__animated animate__fadeInUp animate__delay-0.5s" 
-                                alt="image" 
+                            <img
+                                src="/images/ml-banner-image/ml-main-pic.png"
+                                className="animate__animated animate__fadeInUp animate__delay-0.5s"
+                                alt="image"
                             />
                         </div>
                     </div>

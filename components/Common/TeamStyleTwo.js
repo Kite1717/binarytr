@@ -9,9 +9,11 @@ const TeamStyleTwo = () => {
                 <div className="section-title">
                     <h2>Our Awesome Team</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
-            
+
                 <div className="row justify-content-center">
                     <div className="col-lg-3 col-md-6">
                         <div className="single-team">
@@ -30,7 +32,7 @@ const TeamStyleTwo = () => {
                                         <Link href="#">
                                             <a target="_blank"><Icon.Facebook /></a>
                                         </Link>
-                                        
+
                                     </li>
                                     <li>
                                         <Link href="#">
@@ -49,7 +51,11 @@ const TeamStyleTwo = () => {
                                     </li>
                                 </ul>
 
+{/*
+                                {/*
                                 <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.</p>
+*/}
+*/}
                             </div>
                         </div>
                     </div>
@@ -71,7 +77,7 @@ const TeamStyleTwo = () => {
                                         <Link href="#">
                                             <a target="_blank"><Icon.Facebook /></a>
                                         </Link>
-                                        
+
                                     </li>
                                     <li>
                                         <Link href="#">
@@ -90,7 +96,9 @@ const TeamStyleTwo = () => {
                                     </li>
                                 </ul>
 
+                                {/*
                                 <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.</p>
+*/}
                             </div>
                         </div>
                     </div>
@@ -112,7 +120,7 @@ const TeamStyleTwo = () => {
                                         <Link href="#">
                                             <a target="_blank"><Icon.Facebook /></a>
                                         </Link>
-                                        
+
                                     </li>
                                     <li>
                                         <Link href="#">
@@ -131,7 +139,9 @@ const TeamStyleTwo = () => {
                                     </li>
                                 </ul>
 
+                                {/*
                                 <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.</p>
+*/}
                             </div>
                         </div>
                     </div>
@@ -153,7 +163,7 @@ const TeamStyleTwo = () => {
                                         <Link href="#">
                                             <a target="_blank"><Icon.Facebook /></a>
                                         </Link>
-                                        
+
                                     </li>
                                     <li>
                                         <Link href="#">
@@ -172,7 +182,9 @@ const TeamStyleTwo = () => {
                                     </li>
                                 </ul>
 
+                                {/*
                                 <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.</p>
+*/}
                             </div>
                         </div>
                     </div>

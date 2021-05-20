@@ -17,7 +17,9 @@ const TopFeatures = () => {
                                     <a>Money-back Guarantee</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+*/}
                         </div>
                     </div>
 
@@ -31,7 +33,9 @@ const TopFeatures = () => {
                                     <a>Big Data Transfer</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+*/}
                         </div>
                     </div>
 
@@ -45,7 +49,9 @@ const TopFeatures = () => {
                                     <a>99.9% Server Uptime</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+*/}
                         </div>
                     </div>
 
@@ -59,7 +65,9 @@ const TopFeatures = () => {
                                     <a>Live 24/7 Support</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+*/}
                         </div>
                     </div>
                 </div>

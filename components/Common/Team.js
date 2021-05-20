@@ -41,14 +41,16 @@ const Team = () => {
                 <div className="section-title">
                     <h2>Our Awesome Team</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
             </div>
 
-            {display ? <OwlCarousel 
+            {display ? <OwlCarousel
                 className="team-slider owl-carousel owl-theme owl-theme-style"
                 {...options}
-            > 
+            >
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team1.jpg" alt="image" />
@@ -65,7 +67,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -84,10 +86,12 @@ const Team = () => {
                             </li>
                         </ul>
 
+{/*
                         <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-            
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team2.jpg" alt="image" />
@@ -104,7 +108,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -123,10 +127,12 @@ const Team = () => {
                             </li>
                         </ul>
 
+{/*
                         <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-    
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team3.jpg" alt="image" />
@@ -143,7 +149,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -162,10 +168,12 @@ const Team = () => {
                             </li>
                         </ul>
 
+{/*
                         <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-            
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team4.jpg" alt="image" />
@@ -182,7 +190,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -201,10 +209,12 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-        
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team5.jpg" alt="image" />
@@ -221,7 +231,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -240,10 +250,12 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-        
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team1.jpg" alt="image" />
@@ -260,7 +272,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -279,10 +291,12 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-        
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team2.jpg" alt="image" />
@@ -299,7 +313,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -318,10 +332,12 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-        
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team3.jpg" alt="image" />
@@ -338,7 +354,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -357,10 +373,12 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-    
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team4.jpg" alt="image" />
@@ -377,7 +395,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -396,10 +414,12 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
-            
+
                 <div className="single-team">
                     <div className="team-image">
                         <img src="/images/team-image/team5.jpg" alt="image" />
@@ -416,7 +436,7 @@ const Team = () => {
                                 <Link href="#">
                                     <a target="_blank"><Icon.Facebook /></a>
                                 </Link>
-                                
+
                             </li>
                             <li>
                                 <Link href="#">
@@ -435,7 +455,9 @@ const Team = () => {
                             </li>
                         </ul>
 
-                        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                        {/*
+                                    <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                     </div>
                 </div>
             </OwlCarousel> : ''}

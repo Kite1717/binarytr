@@ -28,15 +28,19 @@ const FeedbackStyleThree = () => {
                     <span className="sub-title">Testimonials</span>
                     <h2>Our Clients Feedback</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
 
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="ml-feedback-slides owl-carousel owl-theme"
                     {...options}
-                >  
+                >
                     <div className="single-testimonials-item">
+{/*
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
+*/}
 
                         <div className="client-info">
                             <img src="/images/client-image/client1.jpg" alt="image" />
@@ -51,11 +55,13 @@ const FeedbackStyleThree = () => {
 
                             <h3>Sarah Taylor</h3>
                             <span>CEO at Envato</span>
-                        </div> 
+                        </div>
                     </div>
 
                     <div className="single-testimonials-item">
+{/*
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
+*/}
 
                         <div className="client-info">
                             <img src="/images/client-image/client2.jpg" alt="image" />
@@ -74,7 +80,9 @@ const FeedbackStyleThree = () => {
                     </div>
 
                     <div className="single-testimonials-item">
+{/*
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
+*/}
 
                         <div className="client-info">
                             <img src="/images/client-image/client3.jpg" alt="image" />

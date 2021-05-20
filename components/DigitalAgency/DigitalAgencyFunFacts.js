@@ -8,7 +8,10 @@ const DigitalAgencyFunFacts = () => {
                 <div className="section-title">
                     <h2>We Completed 1500+ Projects Yearly Successfully & Counting</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+{/*
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}*/}
                 </div>
 
                 <div className="row">

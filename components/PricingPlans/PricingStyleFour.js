@@ -27,9 +27,10 @@ class PricingStyleFour extends Component {
                     <div className="section-title">
                         <h2>Our Pricing Plan</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    
+    {/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                    </div>
+
                     <div className="tab pricing-tab bg-color">
                         <ul className="tabs">
                             <li
@@ -38,7 +39,7 @@ class PricingStyleFour extends Component {
                             >
                                 Monthly Plan
                             </li>
-                            
+
                             <li onClick={(e) => this.openTabSection(e, 'tab2')}>
                                 Yearly Plan
                             </li>

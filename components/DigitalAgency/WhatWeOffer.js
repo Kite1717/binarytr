@@ -10,7 +10,9 @@ const WhatWeOffer = () => {
                     <span className="sub-title">What We Offer</span>
                     <h2>Our Featured Solutions</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
 
                 <div className="row">
@@ -26,7 +28,9 @@ const WhatWeOffer = () => {
                                     <a>Programmatic Advertising</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
@@ -48,7 +52,9 @@ const WhatWeOffer = () => {
                                     <a>Strategy & Research</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
@@ -70,7 +76,9 @@ const WhatWeOffer = () => {
                                     <a>Design & Development</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
@@ -92,7 +100,9 @@ const WhatWeOffer = () => {
                                     <a>Branding & Marketing</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="learn-more-btn">
@@ -103,12 +113,12 @@ const WhatWeOffer = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div className="shape9 slow mobile-dnone">
-                <img 
-                    src="/images/agency-image/agency-shape1.png" 
-                    className="animate__animated animate__fadeInLeft animate__delay-0.7s" 
-                    alt="image" 
+                <img
+                    src="/images/agency-image/agency-shape1.png"
+                    className="animate__animated animate__fadeInLeft animate__delay-0.7s"
+                    alt="image"
                 />
             </div>
         </div>

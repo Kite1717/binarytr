@@ -9,9 +9,10 @@ const OurServices = () => {
                 <div className="section-title">
                     <h2>Our Featured Services that We Provide</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
+
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-repair-services bg1">
@@ -20,8 +21,10 @@ const OurServices = () => {
                             </div>
 
                             <h3>Software Development <br /> IoT Solutions</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -35,8 +38,10 @@ const OurServices = () => {
                             </div>
 
                             <h3>Smart Home, Office <br /> IoT Solutions</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -50,8 +55,10 @@ const OurServices = () => {
                             </div>
 
                             <h3>Smart City <br />IoT Solutions</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -65,8 +72,10 @@ const OurServices = () => {
                             </div>
 
                             <h3>Automative <br /> IoT Solutions</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -80,8 +89,10 @@ const OurServices = () => {
                             </div>
 
                             <h3>Industrial <br /> IoT Solutions</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -95,8 +106,10 @@ const OurServices = () => {
                             </div>
 
                             <h3>System on Chip <br /> IoT Solutions</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>

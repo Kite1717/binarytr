@@ -36,22 +36,24 @@ const Projects = () => {
     React.useEffect(() => {
         setDisplay(true);
     }, [])
-    
+
     return (
         <div className="ml-projects-area pt-0 ptb-80">
             <div className="container">
                 <div className="section-title st-fs-28">
                     <h2>Proud Projects That Make Us Stand Out</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
             </div>
 
             <div className="container-fluid">
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="ml-projects-slides owl-carousel owl-theme"
                     {...options}
-                >  
+                >
                     <div className="single-ml-projects-box">
                         <img src="/images/projects-img1.jpg" alt="image" />
                         <div className="plus-icon">

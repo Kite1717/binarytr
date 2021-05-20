@@ -8,7 +8,9 @@ const BigdataFunFacts = () => {
 				<div className="section-title">
 					<h2>We always try to understand users expectation</h2>
 					<div className="bar"></div>
+{/*
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
 				</div>
 
 				<div className="row">
@@ -54,4 +56,4 @@ const BigdataFunFacts = () => {
     )
 }
 
-export default BigdataFunFacts;  
+export default BigdataFunFacts;

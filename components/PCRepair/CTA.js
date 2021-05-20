@@ -9,7 +9,9 @@ const CTA = () => {
                     <div className="col-lg-6">
                         <div className="cta-repair-content">
                             <h3>We'll help you get back to work</h3>
+{/*
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+*/}
 
                             <Link href="/contact">
                                 <a className="btn btn-primary">Contact Us</a>

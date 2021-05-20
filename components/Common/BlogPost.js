@@ -9,7 +9,9 @@ const BlogPost = () => {
                 <div className="section-title">
                     <h2>The News from Our Blog</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
 
                 <div className="row justify-content-center">
@@ -38,7 +40,9 @@ const BlogPost = () => {
                                     By <Link href="#"><a href="#">Admin</a></Link>
                                 </span>
 
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+*/}
 
                                 <Link href="/blog-details">
                                     <a className="read-more-btn">Read More <Icon.ArrowRight /></a>
@@ -72,7 +76,9 @@ const BlogPost = () => {
                                     By <Link href="#"><a>Smith</a></Link>
                                 </span>
 
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+*/}
 
                                 <Link href="/blog-details">
                                     <a className="read-more-btn">Read More <Icon.ArrowRight /></a>
@@ -106,7 +112,9 @@ const BlogPost = () => {
                                     By <Link href="#"><a>John</a></Link>
                                 </span>
 
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+*/}
 
                                 <Link href="/blog-details">
                                     <a className="read-more-btn">Read More <Icon.ArrowRight /></a>
@@ -120,4 +128,4 @@ const BlogPost = () => {
     )
 }
 
-export default BlogPost;  
+export default BlogPost;

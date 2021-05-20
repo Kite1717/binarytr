@@ -9,9 +9,10 @@ const Services = () => {
                 <div className="section-title">
                     <h2>Our Featured Services that We Provide</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
+
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-repair-services bg1">
@@ -20,8 +21,10 @@ const Services = () => {
                             </div>
 
                             <h3>Laptop Repair</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -35,8 +38,10 @@ const Services = () => {
                             </div>
 
                             <h3>Computer Repair</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -50,8 +55,10 @@ const Services = () => {
                             </div>
 
                             <h3>Apple Products Repair</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -65,8 +72,10 @@ const Services = () => {
                             </div>
 
                             <h3>Software Update</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -80,8 +89,10 @@ const Services = () => {
                             </div>
 
                             <h3>Smartphone Repair</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>
@@ -95,8 +106,10 @@ const Services = () => {
                             </div>
 
                             <h3>Data Backup & Recovery</h3>
+{/*
                             <p>Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+*/}
+
                             <Link href="/service-details">
                                 <a><Icon.ArrowRight /></a>
                             </Link>

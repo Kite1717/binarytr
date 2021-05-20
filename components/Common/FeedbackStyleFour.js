@@ -26,20 +26,24 @@ const FeedbackStyleFour = () => {
                 <div className="section-title">
                     <h2>Our Clients Feedback</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
 
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="ml-feedback-slides owl-carousel owl-theme"
                     {...options}
-                > 
+                >
                     <div className="single-ml-feedback-item">
                         <div className="client-info">
                             <img src="/images/client-image/client1.jpg" alt="image" />
                             <h3>Sarah Taylor</h3>
                             <span>CEO at Envato</span>
                         </div>
+{/*
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
+*/}
 
                         <div className="rating">
                             <Icon.Star />
@@ -56,7 +60,9 @@ const FeedbackStyleFour = () => {
                             <h3>Steven Smith</h3>
                             <span>CEO at Envato</span>
                         </div>
+{/*
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
+*/}
 
                         <div className="rating">
                             <Icon.Star />
@@ -73,7 +79,9 @@ const FeedbackStyleFour = () => {
                             <h3>James Eva</h3>
                             <span>CEO at Envato</span>
                         </div>
+{/*
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ullam harum sit. Accusantium veritatis dolore ducimus illum, cumque excepturi, autem rerum illo amet placeat odit corporis!</p>
+*/}
 
                         <div className="rating">
                             <Icon.Star />

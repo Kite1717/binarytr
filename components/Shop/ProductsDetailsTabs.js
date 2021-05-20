@@ -11,10 +11,12 @@ const ProductsDetailsTabs = () => {
                     <Tab>Additional Information</Tab>
                     <Tab>Review</Tab>
                 </TabList>
-            
+
                 <TabPanel>
                     <div className="products-description">
+{/*
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum is simply dummy text of the printing.</p>
+*/}
                     </div>
                 </TabPanel>
 
@@ -60,7 +62,7 @@ const ProductsDetailsTabs = () => {
                                         <input type="text" placeholder="Name*" className="form-control" />
                                     </div>
                                 </div>
-                                
+
                                 <div className="col-lg-6 col-md-6">
                                     <div className="form-group">
                                         <input type="email" placeholder="Email*" className="form-control" />
@@ -74,9 +76,9 @@ const ProductsDetailsTabs = () => {
                         </form>
                     </div>
                 </TabPanel>
-            </Tabs> 
+            </Tabs>
         </div>
     )
 }
 
-export default ProductsDetailsTabs;  
+export default ProductsDetailsTabs;

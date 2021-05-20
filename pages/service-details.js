@@ -9,14 +9,14 @@ import {
     AccordionItemPanel,
     AccordionItemButton
 } from 'react-accessible-accordion';
- 
+
 const ServiceDetails = () => {
     return (
         <>
             <Navbar />
 
             <PageBanner pageTitle="Services Style Five" />
- 
+
             <div className="services-details-area ptb-80">
                 <div className="container">
                     <div className="row align-items-center">
@@ -30,10 +30,10 @@ const ServiceDetails = () => {
                         </div>
 
                         <div className="col-lg-6 services-details-image">
-                            <img 
-                                src="/images/services-details-image/services-details1.png" 
-                                className="animate__animated animate__fadeInUp" 
-                                alt="image" 
+                            <img
+                                src="/images/services-details-image/services-details1.png"
+                                className="animate__animated animate__fadeInUp"
+                                alt="image"
                             />
                         </div>
                     </div>
@@ -42,10 +42,10 @@ const ServiceDetails = () => {
 
                     <div className="row align-items-center">
                         <div className="col-lg-6 services-details-image">
-                            <img 
-                                src="/images/services-details-image/services-details2.png" 
-                                className="animate__animated animate__fadeInUp" 
-                                alt="image" 
+                            <img
+                                src="/images/services-details-image/services-details2.png"
+                                className="animate__animated animate__fadeInUp"
+                                alt="image"
                             />
                         </div>
 
@@ -65,7 +65,9 @@ const ServiceDetails = () => {
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
+{/*
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+*/}
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
@@ -80,7 +82,9 @@ const ServiceDetails = () => {
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
+{/*
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+*/}
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>
@@ -95,7 +99,9 @@ const ServiceDetails = () => {
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
                                                 <p>
+{/*
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+*/}
                                                 </p>
                                             </AccordionItemPanel>
                                         </AccordionItem>

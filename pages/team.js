@@ -4,7 +4,7 @@ import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
- 
+
 const Team = () => {
     return (
         <>
@@ -50,7 +50,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+{/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -90,11 +92,13 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6">
                             <div className="single-team">
                                 <div className="team-image">
@@ -130,7 +134,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -170,7 +176,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -210,7 +218,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -250,7 +260,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -290,11 +302,13 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6">
                             <div className="single-team">
                                 <div className="team-image">
@@ -330,7 +344,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -370,7 +386,9 @@ const Team = () => {
                                         </li>
                                     </ul>
 
+                                    {/*
                                     <p>Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+*/}
                                 </div>
                             </div>
                         </div>

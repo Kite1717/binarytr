@@ -24,17 +24,19 @@ const FeedbackStyleTwo = () => {
                 <div className="section-title">
                     <h2>What users Saying</h2>
                     <div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
 
-                {display ? <OwlCarousel 
+                {display ? <OwlCarousel
                     className="testimonials-slides owl-carousel owl-theme"
                     {...options}
                 >
                     <div className="single-feedback-item">
                         <div className="client-info align-items-center">
                             <div className="image">
-                                <img 
+                                <img
                                     src="/images/client-image/client1.jpg"
                                     alt="image"
                                 />
@@ -46,13 +48,15 @@ const FeedbackStyleTwo = () => {
                             </div>
                         </div>
 
+{/*
                         <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                     </div>
 
                     <div className="single-feedback-item">
                         <div className="client-info align-items-center">
                             <div className="image">
-                                <img 
+                                <img
                                     src="/images/client-image/client2.jpg"
                                     alt="image"
                                 />
@@ -64,13 +68,15 @@ const FeedbackStyleTwo = () => {
                             </div>
                         </div>
 
+{/*
                         <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                     </div>
 
                     <div className="single-feedback-item">
                         <div className="client-info align-items-center">
                             <div className="image">
-                                <img 
+                                <img
                                     src="/images/client-image/client3.jpg"
                                     alt="image"
                                 />
@@ -82,7 +88,9 @@ const FeedbackStyleTwo = () => {
                             </div>
                         </div>
 
+{/*
                         <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                     </div>
                 </OwlCarousel> : ''}
             </div>

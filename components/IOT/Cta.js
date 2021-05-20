@@ -8,10 +8,10 @@ const Cta = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="cta-iot-img">
-                            <img 
+                            <img
                                 src='/images/cta-shape2.png'
-                                className="animate__animated animate__fadeInUp animate__delay-0.6s" 
-                                alt="image" 
+                                className="animate__animated animate__fadeInUp animate__delay-0.6s"
+                                alt="image"
                             />
                         </div>
                     </div>
@@ -19,7 +19,9 @@ const Cta = () => {
                     <div className="col-lg-6">
                         <div className="cta-iot-content">
                             <h3>Connect and Manage your IoT at Scale</h3>
+{/*
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+*/}
 
                             <Link href="/contact">
                                 <a className="btn btn-primary">Get Started!</a>

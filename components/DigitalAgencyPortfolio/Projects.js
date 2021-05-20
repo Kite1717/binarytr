@@ -5,7 +5,7 @@ import Link from 'next/link';
 const masonryOptions = {
     transitionDuration: 0
 };
- 
+
 export class Projects extends Component {
     render() {
         const images = this.props.images.map((image, idx) => {
@@ -31,9 +31,11 @@ export class Projects extends Component {
                 <div className="container">
                     <div className="section-title text-left">
                         <h2>Our Latest <span>Projects</span></h2>
+{/*
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                     </div>
-                 
+
                     <Masonry
                         className={'row'} // default ''
                         elementType={'div'} // default 'div'
@@ -51,57 +53,57 @@ export class Projects extends Component {
 
 Projects.defaultProps = {
     images: [
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project1.jpg",
             category: "Business",
             title: "Business Stratagy"
         },
-        { 
-            image: "/images/agency-portfolio-projects/ap-project2.jpg", 
+        {
+            image: "/images/agency-portfolio-projects/ap-project2.jpg",
             category: "Development",
             title: "Web Development"
         },
-        { 
-            image: "/images/agency-portfolio-projects/ap-project3.jpg", 
+        {
+            image: "/images/agency-portfolio-projects/ap-project3.jpg",
             category: "Marketing",
             title: "Digital Marketing"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project4.jpg",
             category: "App",
             title: "Mobile App Development"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project6.jpg",
             category: "Marketing",
             title: "Email Marketing"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project5.jpg",
             category: "Development",
             title: "E-commerce Development"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project9.jpg",
             category: "App",
             title: "React App Development"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project8.jpg",
             category: "Writing",
             title: "Content Writing"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project7.jpg",
             category: "IT",
             title: "IT Consultancy"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project11.jpg",
             category: "Solutions",
             title: "IT Solutions"
         },
-        { 
+        {
             image: "/images/agency-portfolio-projects/ap-project10.jpg",
             category: "Marketing",
             title: "Marketing & Reporting"

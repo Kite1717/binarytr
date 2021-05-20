@@ -9,7 +9,9 @@ const OurServices = () => {
 				<div className="section-title">
 					<h2>Our Services</h2>
 					<div className="bar"></div>
+{/*
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
 				</div>
 
 				<div className="row">
@@ -23,7 +25,9 @@ const OurServices = () => {
                                 	<a>Incredible Infrastructure</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -31,13 +35,15 @@ const OurServices = () => {
 						<div className="single-services-box">
 							<div className="icon">
                                 <Icon.Mail />
-							</div> 
+							</div>
 							<h3>
 								<Link href="/service-details">
                                 	<a>Email Notifications</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -45,13 +51,15 @@ const OurServices = () => {
 						<div className="single-services-box">
 							<div className="icon">
                                 <Icon.Bell />
-							</div> 
+							</div>
 							<h3>
 								<Link href="/service-details">
                                 	<a>Best Analytics Audits</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -65,7 +73,9 @@ const OurServices = () => {
                                 	<a>Simple Dashboard</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -73,13 +83,15 @@ const OurServices = () => {
 						<div className="single-services-box">
 							<div className="icon bg-c679e3">
                                 <Icon.Info />
-							</div> 
+							</div>
 							<h3>
 								<Link href="/service-details">
                                 	<a>Information Retrieval</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -87,13 +99,15 @@ const OurServices = () => {
 						<div className="single-services-box">
 							<div className="icon bg-c679e3">
                                 <Icon.HardDrive />
-							</div> 
+							</div>
 							<h3>
 								<Link href="/service-details">
                                 	<a>Deep Technical SEO</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -107,7 +121,9 @@ const OurServices = () => {
                                 	<a>Drag & Drop Functionality</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -115,13 +131,15 @@ const OurServices = () => {
 						<div className="single-services-box">
 							<div className="icon bg-eb6b3d">
                                 <Icon.Bell />
-							</div> 
+							</div>
 							<h3>
 								<Link href="/service-details">
                                 	<a>Deadline Reminders</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -129,13 +147,15 @@ const OurServices = () => {
 						<div className="single-services-box">
 							<div className="icon bg-eb6b3d">
                                 <Icon.Send />
-							</div> 
+							</div>
 							<h3>
 								<Link href="/service-details">
                                 	<a>Modern Keyword Analysis</a>
 								</Link>
                             </h3>
-							<p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 				</div>
@@ -144,4 +164,4 @@ const OurServices = () => {
     )
 }
 
-export default OurServices;  
+export default OurServices;

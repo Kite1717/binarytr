@@ -29,11 +29,17 @@ const About3 = () => {
                                 <h2>Engaging New Audiences Through Smart Approach</h2>
                                 <div className="bar"></div>
 
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
 
+{/*
                                 <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.Donec vitae sapien ut libero venenatis faucibus tempus.</p>
+*/}
 
+{/*
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+*/}
                             </div>
                         </div>
                     </div>
@@ -87,13 +93,13 @@ const About3 = () => {
             <Team />
 
             <FeedbackStyleThree />
-           
+
             <FunFactsArea />
 
             <div className="pb-80">
                 <Partner />
             </div>
-            
+
             <Footer />
         </>
     )

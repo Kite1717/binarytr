@@ -9,7 +9,7 @@ import {
     AccordionItemPanel,
     AccordionItemButton
 } from 'react-accessible-accordion';
- 
+
 const FeatureDetails = () => {
     return (
         <>
@@ -21,10 +21,10 @@ const FeatureDetails = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 features-details-image">
-                            <img 
-                                src="/images/features-details-image/feature1.png" 
-                                className="animate__animated animate__fadeInUp" 
-                                alt="image" 
+                            <img
+                                src="/images/features-details-image/feature1.png"
+                                className="animate__animated animate__fadeInUp"
+                                alt="image"
                             />
                         </div>
 
@@ -49,7 +49,9 @@ const FeatureDetails = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
+{/*
                                 <p>Took a galley of type and scrambled it to make a type specimen book. survived not only five centuries, but also the leap into electronic remaining. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer when an unknown.</p>
+*/}
 
                                 <div className="features-details-accordion">
                                     <Accordion allowZeroExpanded preExpanded={['a']}>
@@ -62,9 +64,9 @@ const FeatureDetails = () => {
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
-                                                <p>
+                                                {/*<p>
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                                </p>
+                                                </p>*/}
                                             </AccordionItemPanel>
                                         </AccordionItem>
 
@@ -77,9 +79,9 @@ const FeatureDetails = () => {
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
-                                                <p>
+                                                {/*<p>
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                                </p>
+                                                </p>*/}
                                             </AccordionItemPanel>
                                         </AccordionItem>
 
@@ -92,27 +94,27 @@ const FeatureDetails = () => {
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
-                                                <p>
+                                                {/*<p>
                                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                                                </p>
+                                                </p>*/}
                                             </AccordionItemPanel>
                                         </AccordionItem>
                                     </Accordion>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-6 features-details-image">
-                            <img 
-                                src="/images/features-details-image/feature2.png" 
-                                className="animate__animated animate__fadeInUp" 
-                                alt="image" 
+                            <img
+                                src="/images/features-details-image/feature2.png"
+                                className="animate__animated animate__fadeInUp"
+                                alt="image"
                             />
                         </div>
                     </div>
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

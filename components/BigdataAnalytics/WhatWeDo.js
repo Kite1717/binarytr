@@ -9,7 +9,9 @@ const WhatWeDo = () => {
 				<div className="section-title">
 					<h2>What We Do</h2>
 					<div className="bar"></div>
+{/*
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
 				</div>
 
 				<div className="row justify-content-center">
@@ -23,7 +25,9 @@ const WhatWeDo = () => {
                                     <a>Research</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit consectetur, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="link">Market Research</a>
@@ -40,20 +44,22 @@ const WhatWeDo = () => {
                             </Link>
 						</div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
 						<div className="single-what-we-do-box">
 							<div className="icon">
                                 <i className="flaticon-idea"></i>
                             </div>
-                            
+
                             <h3>
                                 <Link href="/service-details">
                                     <a>Analytics</a>
                                 </Link>
                             </h3>
 
+{/*
                             <p>Lorem ipsum dolor sit consectetur, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="link">Data Analytics</a>
@@ -62,7 +68,7 @@ const WhatWeDo = () => {
                             <Link href="/service-details">
                                 <a className="link">Business Intelligence</a>
                             </Link>
-                           
+
                             <Link href="/service-details">
                                 <a className="read-more-btn">
                                     <Icon.ArrowRight /> Read More
@@ -70,7 +76,7 @@ const WhatWeDo = () => {
                             </Link>
 						</div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6 col-sm-6">
 						<div className="single-what-we-do-box">
 							<div className="icon">
@@ -81,7 +87,9 @@ const WhatWeDo = () => {
                                     <a>Technology</a>
                                 </Link>
                             </h3>
+{/*
                             <p>Lorem ipsum dolor sit consectetur, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+*/}
 
                             <Link href="/service-details">
                                 <a className="link">Intelligence Automation</a>
@@ -90,7 +98,7 @@ const WhatWeDo = () => {
                             <Link href="/service-details">
                                 <a className="link">Quality Engineering</a>
                             </Link>
-                            
+
                             <Link href="/service-details">
                                 <a className="read-more-btn">
                                     <Icon.ArrowRight /> Read More
@@ -104,4 +112,4 @@ const WhatWeDo = () => {
     )
 }
 
-export default WhatWeDo;  
+export default WhatWeDo;

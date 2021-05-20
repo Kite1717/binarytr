@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';
 
 const Feedback = () => {
     return (
@@ -7,14 +7,19 @@ const Feedback = () => {
                 <div className="section-title">
                     <h2>What Users Saying asdasd</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+{/*
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}*/}
                 </div>
-                
+
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-sm-6 col-md-6">
                         <div className="single-feedback-box">
                             <div className="feedback-desc">
+{/*
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium doloremque laudantium, totam rem aperiam, eaque ipsaquaeab illo.</p>
+*/}
                             </div>
 
                             <div className="client-info">
@@ -28,7 +33,9 @@ const Feedback = () => {
                     <div className="col-lg-4 col-sm-6 col-md-6">
                         <div className="single-feedback-box">
                             <div className="feedback-desc">
+{/*
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium doloremque laudantium, totam rem aperiam, eaque ipsaquaeab illo.</p>
+*/}
                             </div>
 
                             <div className="client-info">
@@ -42,10 +49,12 @@ const Feedback = () => {
                     <div className="col-lg-4 col-sm-6 col-md-6">
                         <div className="single-feedback-box">
                             <div className="feedback-desc">
+{/*
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium doloremque laudantium, totam rem aperiam, eaque ipsaquaeab illo.</p>
+*/}
                             </div>
 
-                            <div className="client-info"> 
+                            <div className="client-info">
                                 <img src="/images/author3.jpg" alt="image" />
                                 <h3>Sarah Lucy</h3>
                                 <span>Designer</span>
@@ -58,4 +67,4 @@ const Feedback = () => {
     )
 }
 
-export default Feedback;  
+export default Feedback;

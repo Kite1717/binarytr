@@ -8,7 +8,9 @@ const IndustriesWeServe = () => {
                 <div className="section-title">
                     <h2>Industries We Serve</h2>
 					<div className="bar"></div>
+{/*
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
 
                 <div className="row justify-content-center">
@@ -117,4 +119,4 @@ const IndustriesWeServe = () => {
     )
 }
 
-export default IndustriesWeServe;  
+export default IndustriesWeServe;

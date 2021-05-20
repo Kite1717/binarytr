@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from "@/components/_App/Navbar";
 import Footer from "@/components/_App/Footer";
-import PageBanner from '@/components/Common/PageBanner'; 
+import PageBanner from '@/components/Common/PageBanner';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
- 
+
 const Projects1 = () => {
     return (
         <>
@@ -31,7 +31,9 @@ const Projects1 = () => {
                                             <a>Incredible infrastructure</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -52,7 +54,9 @@ const Projects1 = () => {
                                             <a>UI/UX Design</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -73,7 +77,9 @@ const Projects1 = () => {
                                             <a>Apps Development</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -94,7 +100,9 @@ const Projects1 = () => {
                                             <a>Mock-up Design</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -115,11 +123,13 @@ const Projects1 = () => {
                                             <a>E-commerce</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="col-lg-4 col-md-6">
                             <div className="single-works">
                                 <img src="/images/works-image/works-image6.jpg" alt="image" />
@@ -136,7 +146,9 @@ const Projects1 = () => {
                                             <a>Web Design</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -157,7 +169,9 @@ const Projects1 = () => {
                                             <a>React App Development</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -178,7 +192,9 @@ const Projects1 = () => {
                                             <a>Digital Marketing</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -199,7 +215,9 @@ const Projects1 = () => {
                                             <a>Email Marketing</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                                    {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
                                 </div>
                             </div>
                         </div>
@@ -220,7 +238,7 @@ const Projects1 = () => {
                     <img src="/images/shape4.svg" alt="shape" />
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

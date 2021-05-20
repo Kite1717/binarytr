@@ -4,7 +4,7 @@ import Footer from "@/components/_App/Footer";
 import PageBanner from '@/components/Common/PageBanner';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
- 
+
 const Blog3 = () => {
     return (
         <>
@@ -38,7 +38,9 @@ const Blog3 = () => {
                                             <a>Making Peace With The Feast Or Famine Of Freelancing</a>
                                         </Link>
                                     </h3>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
@@ -66,14 +68,16 @@ const Blog3 = () => {
                                             <li>August 18, 2021</li>
                                         </ul>
                                     </div>
- 
+
                                     <h3>
                                         <Link href="/blog-details">
                                             <a>I Used The Web For A Day On A 50 MB Budget</a>
                                         </Link>
                                     </h3>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
+*/}
+
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
                                             Read Story <Icon.Plus />
@@ -100,14 +104,16 @@ const Blog3 = () => {
                                             <li>August 15, 2021</li>
                                         </ul>
                                     </div>
- 
+
                                     <h3>
                                         <Link href="/blog-details">
                                             <a>Here are the 5 most telling signs of micromanagement</a>
                                         </Link>
                                     </h3>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
+*/}
+
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
                                             Read Story <Icon.Plus />
@@ -134,14 +140,16 @@ const Blog3 = () => {
                                             <li>August 15, 2021</li>
                                         </ul>
                                     </div>
- 
+
                                     <h3>
                                         <Link href="/blog-details">
                                             <a>The security risks of changing package owners</a>
                                         </Link>
                                     </h3>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
+*/}
+
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
                                             Read Story <Icon.Plus />
@@ -168,14 +176,16 @@ const Blog3 = () => {
                                             <li>August 18, 2021</li>
                                         </ul>
                                     </div>
- 
+
                                     <h3>
                                         <Link href="/blog-details">
                                             <a>Tips to Protecting Your Business and Family</a>
                                         </Link>
                                     </h3>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
+*/}
+
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
                                             Read Story <Icon.Plus />
@@ -202,14 +212,16 @@ const Blog3 = () => {
                                             <li>August 15, 2021</li>
                                         </ul>
                                     </div>
- 
+
                                     <h3>
                                         <Link href="/blog-details">
                                             <a>Protect Your Workplace from Cyber Attacks</a>
                                         </Link>
                                     </h3>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
+*/}
+
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
                                             Read Story <Icon.Plus />
@@ -218,7 +230,7 @@ const Blog3 = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
 
                         {/* Pagination */}
                         <div className="col-lg-12 col-md-12">
@@ -226,13 +238,13 @@ const Blog3 = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination justify-content-center">
                                         <li className="page-item"><a className="page-link" href="#">Prev</a></li>
-                                        
+
                                         <li className="page-item active"><a className="page-link" href="#">1</a></li>
-                                        
+
                                         <li className="page-item"><a className="page-link" href="#">2</a></li>
-                                        
+
                                         <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                        
+
                                         <li className="page-item"><a className="page-link" href="#">Next</a></li>
                                     </ul>
                                 </nav>
@@ -241,7 +253,7 @@ const Blog3 = () => {
                     </div>
                 </div>
             </div>
- 
+
             <Footer />
         </>
     )

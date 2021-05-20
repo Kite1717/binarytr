@@ -19,7 +19,9 @@ const Features = () => {
 								</Link>
 							</h3>
 
+{/*
 							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+*/}
 						</div>
 					</div>
 
@@ -35,7 +37,9 @@ const Features = () => {
 								</Link>
 							</h3>
 
+{/*
 							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+*/}
 						</div>
 					</div>
 
@@ -51,7 +55,9 @@ const Features = () => {
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 
@@ -67,7 +73,9 @@ const Features = () => {
 								</Link>
 							</h3>
 
-							<p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.</p>
+							{/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 						</div>
 					</div>
 				</div>

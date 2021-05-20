@@ -10,8 +10,9 @@ const WhatWeOffer = () => {
                     <span className="sub-title">What We Offer</span>
                     <h2>Our Featured Solutions</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
 
                 <div className="row justify-content-center">
                     <div className="col-lg-3 col-sm-6 col-md-6">
@@ -45,7 +46,7 @@ const WhatWeOffer = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+
                             <Link href="#">
                                 <a className="learn-more-btn">
                                 <Icon.PlusCircle /> Learn More
@@ -65,7 +66,7 @@ const WhatWeOffer = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+
                             <Link href="#">
                                 <a className="learn-more-btn">
                                 <Icon.PlusCircle /> Learn More
@@ -85,7 +86,7 @@ const WhatWeOffer = () => {
                                 </Link>
                             </h3>
                             <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                            
+
                             <Link href="#">
                                 <a className="learn-more-btn">
                                     <i data-feather="plus-circle"></i> Learn More

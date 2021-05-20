@@ -9,9 +9,10 @@ const BlogCard = () => {
                 <div className="section-title">
                     <h2>Our Recent Story</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                
+{/*
+                            <p>Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+*/}                </div>
+
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-blog-post-box">
@@ -40,7 +41,9 @@ const BlogCard = () => {
                                         <a>Making Peace With The Feast Or Famine Of Freelancing</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 
                                 <Link href="/blog-details">
                                     <a className="learn-more-btn">Read Story <Icon.Plus /></a>
@@ -76,8 +79,10 @@ const BlogCard = () => {
                                         <a>I Used The Web For A Day On A 50 MB Budget</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                
+*/}
+
                                 <Link href="/blog-details">
                                     <a className="learn-more-btn">Read Story <Icon.Plus /></a>
                                 </Link>
@@ -112,8 +117,10 @@ const BlogCard = () => {
                                         <a>Here are the 5 most telling signs of micromanagement</a>
                                     </Link>
                                 </h3>
+{/*
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                
+*/}
+
                                 <Link href="/blog-details">
                                     <a className="learn-more-btn">Read Story <Icon.Plus /></a>
                                 </Link>

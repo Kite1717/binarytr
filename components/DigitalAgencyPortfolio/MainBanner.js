@@ -27,10 +27,10 @@ const MainBanner = () => {
 
     return (
         <>
-            {display ? <OwlCarousel 
+            {display ? <OwlCarousel
                 className="agency-portfolio-home-slides owl-carousel owl-theme"
                 {...options}
-            > 
+            >
                 <div className="agency-portfolio-main-banner portfolio-banner-bg1">
                     <div className="d-table">
                         <div className="d-table-cell">
@@ -38,7 +38,9 @@ const MainBanner = () => {
                                 <div className="portfolio-banner-content">
                                     <span className="sub-title">We are Creative</span>
                                     <h1>Digital Agency</h1>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+*/}
                                     <a href="#" className="btn btn-secondary">Get Started</a>
                                 </div>
                             </div>
@@ -53,7 +55,9 @@ const MainBanner = () => {
                                 <div className="portfolio-banner-content">
                                     <span className="sub-title">We are Digital</span>
                                     <h1>UX/UI Design</h1>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+*/}
                                     <a href="#" className="btn btn-secondary">Get Started</a>
                                 </div>
                             </div>
@@ -68,7 +72,9 @@ const MainBanner = () => {
                                 <div className="portfolio-banner-content">
                                     <span className="sub-title">We are Agency</span>
                                     <h1>Digital Marketing</h1>
+{/*
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+*/}
                                     <a href="#" className="btn btn-secondary">Get Started</a>
                                 </div>
                             </div>
@@ -80,4 +86,4 @@ const MainBanner = () => {
     )
 }
 
-export default MainBanner;  
+export default MainBanner;

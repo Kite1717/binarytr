@@ -9,9 +9,11 @@ const BlogPost = () => {
 				<div className="section-title">
 					<h2>Our Recent Story</h2>
 					<div className="bar"></div>
+{/*
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+*/}
                 </div>
-                
+
                 <div className="row justify-content-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-blog-post-box bg-f4faff">
@@ -36,7 +38,9 @@ const BlogPost = () => {
                                         <a>Making Peace With The Feast Or Famine Of Freelancing</a>
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
 
                                 <Link href="/blog-details">
                                     <a className="learn-more-btn">
@@ -68,8 +72,10 @@ const BlogPost = () => {
                                         <a>I Used The Web For A Day On A 50 MB Budget</a>
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                
+                                {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
+
                                 <Link href="/blog-details">
                                     <a className="learn-more-btn">
                                         Read Story <Icon.Plus />
@@ -100,8 +106,10 @@ const BlogPost = () => {
                                         <a>Here are the 5 most telling signs of micromanagement</a>
                                     </Link>
                                 </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                
+                                {/*
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+*/}
+
                                 <Link href="/blog-details">
                                     <a className="learn-more-btn">
                                         Read Story <Icon.Plus />
@@ -139,4 +147,4 @@ const BlogPost = () => {
     )
 }
 
-export default BlogPost;  
+export default BlogPost;
